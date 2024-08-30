@@ -1,0 +1,422 @@
+[0.000000] (-) TimerEvent: {}
+[0.003148] (camera_pack) JobQueued: {'identifier': 'camera_pack', 'dependencies': OrderedDict()}
+[0.003468] (opencv_node) JobQueued: {'identifier': 'opencv_node', 'dependencies': OrderedDict()}
+[0.003517] (rqt_display_node) JobQueued: {'identifier': 'rqt_display_node', 'dependencies': OrderedDict()}
+[0.003544] (usb_camera_node) JobQueued: {'identifier': 'usb_camera_node', 'dependencies': OrderedDict()}
+[0.003570] (camera_pack) JobStarted: {'identifier': 'camera_pack'}
+[0.041380] (opencv_node) JobStarted: {'identifier': 'opencv_node'}
+[0.055922] (rqt_display_node) JobStarted: {'identifier': 'rqt_display_node'}
+[0.086398] (usb_camera_node) JobStarted: {'identifier': 'usb_camera_node'}
+[0.121617] (-) TimerEvent: {}
+[0.123772] (camera_pack) JobProgress: {'identifier': 'camera_pack', 'progress': 'cmake'}
+[0.127822] (camera_pack) JobProgress: {'identifier': 'camera_pack', 'progress': 'build'}
+[0.127875] (camera_pack) Command: {'cmd': ['/bin/cmake', '--build', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/camera_pack', '--', '-j16', '-l16'], 'cwd': '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/camera_pack', 'env': OrderedDict([('IMSETTINGS_INTEGRATE_DESKTOP', 'yes'), ('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('SESSION_MANAGER', 'local/unix:@/tmp/.ICE-unix/1914,unix/unix:/tmp/.ICE-unix/1914'), ('WINDOWID', '134217735'), ('COLORTERM', 'truecolor'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('HISTCONTROL', 'ignoredups'), ('GTK_IM_MODULE', 'ibus'), ('ROS_PYTHON_VERSION', '3'), ('HISTSIZE', '1000'), ('HOSTNAME', 'localhost'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXmF2B1w/agent.1914'), ('XMODIFIERS', '@im=ibus'), ('DESKTOP_SESSION', 'ukui'), ('SSH_AGENT_PID', '2209'), ('XDG_SEAT', 'seat0'), ('PWD', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/camera_pack'), ('LOGNAME', 'root'), ('XDG_SESSION_DESKTOP', 'ukui'), ('QT_QPA_PLATFORMTHEME', 'ukui'), ('XDG_SESSION_TYPE', 'x11'), ('XAUTHORITY', '/run/lightdm/root/xauthority'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/root'), ('GDM_LANG', 'zh_CN.utf8'), ('COMMAND_MODE', 'unix2003'), ('HOME', '/root'), ('LANG', 'zh_CN.utf8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:'), ('XDG_CURRENT_DESKTOP', 'UKUI'), ('VTE_VERSION', '7202'), ('AMENT_PREFIX_PATH', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack:/home/jojo/usb_cam_ros2/install/usb_cam:/home/jojo/usb_camera/install/usb_cam:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack:/home/jojo/usb_cam_ros2/install/usb_cam:/home/jojo/usb_camera/install/usb_cam:/opt/ros/humble'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('COLCON_PREFIX_PATH', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install:/home/jojo/usb_cam_ros2/install:/home/jojo/usb_camera/install'), ('IMSETTINGS_MODULE', 'IBus'), ('INIT_CWD', '/opt/qtcreator-14.0.0/bin'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.11/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('YAML_CPP_INCLUDE_DIR', '/usr/include/yaml-cpp'), ('USER', 'root'), ('DISPLAY', ':0'), ('SHLVL', '2'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '1'), ('XDG_SESSION_ID', '1'), ('LD_LIBRARY_PATH', '/home/jojo/usb_cam_ros2/install/usb_cam/lib:/home/jojo/usb_camera/install/usb_cam/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib64:/opt/ros/humble/opt/libphidget22/lib:/opt/ros/humble/lib'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('ROS_LOCALHOST_ONLY', '0'), ('KDEDIRS', '/usr'), ('PATH', '/bin:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/sbin:/usr/local/bin:/usr/bin:/bin:/root/bin:/root/bin'), ('GDMSESSION', 'ukui'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('MAIL', '/var/spool/mail/root'), ('ROS_DISTRO', 'humble'), ('OLDPWD', '/root/Desktop/QtrosAndOpenCV'), ('TERM_PROGRAM', 'vscode'), ('_', '/bin/env')]), 'shell': False}
+[0.130732] (opencv_node) JobProgress: {'identifier': 'opencv_node', 'progress': 'cmake'}
+[0.131952] (opencv_node) JobProgress: {'identifier': 'opencv_node', 'progress': 'build'}
+[0.133246] (opencv_node) Command: {'cmd': ['/bin/cmake', '--build', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/opencv_node', '--', '-j16', '-l16'], 'cwd': '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/opencv_node', 'env': OrderedDict([('IMSETTINGS_INTEGRATE_DESKTOP', 'yes'), ('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('SESSION_MANAGER', 'local/unix:@/tmp/.ICE-unix/1914,unix/unix:/tmp/.ICE-unix/1914'), ('WINDOWID', '134217735'), ('COLORTERM', 'truecolor'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('HISTCONTROL', 'ignoredups'), ('GTK_IM_MODULE', 'ibus'), ('ROS_PYTHON_VERSION', '3'), ('HISTSIZE', '1000'), ('HOSTNAME', 'localhost'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXmF2B1w/agent.1914'), ('XMODIFIERS', '@im=ibus'), ('DESKTOP_SESSION', 'ukui'), ('SSH_AGENT_PID', '2209'), ('XDG_SEAT', 'seat0'), ('PWD', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/opencv_node'), ('LOGNAME', 'root'), ('XDG_SESSION_DESKTOP', 'ukui'), ('QT_QPA_PLATFORMTHEME', 'ukui'), ('XDG_SESSION_TYPE', 'x11'), ('XAUTHORITY', '/run/lightdm/root/xauthority'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/root'), ('GDM_LANG', 'zh_CN.utf8'), ('COMMAND_MODE', 'unix2003'), ('HOME', '/root'), ('LANG', 'zh_CN.utf8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:'), ('XDG_CURRENT_DESKTOP', 'UKUI'), ('VTE_VERSION', '7202'), ('AMENT_PREFIX_PATH', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack:/home/jojo/usb_cam_ros2/install/usb_cam:/home/jojo/usb_camera/install/usb_cam:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack:/home/jojo/usb_cam_ros2/install/usb_cam:/home/jojo/usb_camera/install/usb_cam:/opt/ros/humble'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('COLCON_PREFIX_PATH', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install:/home/jojo/usb_cam_ros2/install:/home/jojo/usb_camera/install'), ('IMSETTINGS_MODULE', 'IBus'), ('INIT_CWD', '/opt/qtcreator-14.0.0/bin'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.11/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('YAML_CPP_INCLUDE_DIR', '/usr/include/yaml-cpp'), ('USER', 'root'), ('DISPLAY', ':0'), ('SHLVL', '2'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '1'), ('XDG_SESSION_ID', '1'), ('LD_LIBRARY_PATH', '/home/jojo/usb_cam_ros2/install/usb_cam/lib:/home/jojo/usb_camera/install/usb_cam/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib64:/opt/ros/humble/opt/libphidget22/lib:/opt/ros/humble/lib'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('ROS_LOCALHOST_ONLY', '0'), ('KDEDIRS', '/usr'), ('PATH', '/bin:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/sbin:/usr/local/bin:/usr/bin:/bin:/root/bin:/root/bin'), ('GDMSESSION', 'ukui'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('MAIL', '/var/spool/mail/root'), ('ROS_DISTRO', 'humble'), ('OLDPWD', '/root/Desktop/QtrosAndOpenCV'), ('TERM_PROGRAM', 'vscode'), ('_', '/bin/env')]), 'shell': False}
+[0.135095] (rqt_display_node) JobProgress: {'identifier': 'rqt_display_node', 'progress': 'cmake'}
+[0.137341] (rqt_display_node) JobProgress: {'identifier': 'rqt_display_node', 'progress': 'build'}
+[0.137435] (rqt_display_node) Command: {'cmd': ['/bin/cmake', '--build', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/rqt_display_node', '--', '-j16', '-l16'], 'cwd': '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/rqt_display_node', 'env': OrderedDict([('IMSETTINGS_INTEGRATE_DESKTOP', 'yes'), ('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('SESSION_MANAGER', 'local/unix:@/tmp/.ICE-unix/1914,unix/unix:/tmp/.ICE-unix/1914'), ('WINDOWID', '134217735'), ('COLORTERM', 'truecolor'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('HISTCONTROL', 'ignoredups'), ('GTK_IM_MODULE', 'ibus'), ('ROS_PYTHON_VERSION', '3'), ('HISTSIZE', '1000'), ('HOSTNAME', 'localhost'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXmF2B1w/agent.1914'), ('XMODIFIERS', '@im=ibus'), ('DESKTOP_SESSION', 'ukui'), ('SSH_AGENT_PID', '2209'), ('XDG_SEAT', 'seat0'), ('PWD', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/rqt_display_node'), ('LOGNAME', 'root'), ('XDG_SESSION_DESKTOP', 'ukui'), ('QT_QPA_PLATFORMTHEME', 'ukui'), ('XDG_SESSION_TYPE', 'x11'), ('XAUTHORITY', '/run/lightdm/root/xauthority'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/root'), ('GDM_LANG', 'zh_CN.utf8'), ('COMMAND_MODE', 'unix2003'), ('HOME', '/root'), ('LANG', 'zh_CN.utf8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:'), ('XDG_CURRENT_DESKTOP', 'UKUI'), ('VTE_VERSION', '7202'), ('AMENT_PREFIX_PATH', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack:/home/jojo/usb_cam_ros2/install/usb_cam:/home/jojo/usb_camera/install/usb_cam:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack:/home/jojo/usb_cam_ros2/install/usb_cam:/home/jojo/usb_camera/install/usb_cam:/opt/ros/humble'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('COLCON_PREFIX_PATH', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install:/home/jojo/usb_cam_ros2/install:/home/jojo/usb_camera/install'), ('IMSETTINGS_MODULE', 'IBus'), ('INIT_CWD', '/opt/qtcreator-14.0.0/bin'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.11/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('YAML_CPP_INCLUDE_DIR', '/usr/include/yaml-cpp'), ('USER', 'root'), ('DISPLAY', ':0'), ('SHLVL', '2'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '1'), ('XDG_SESSION_ID', '1'), ('LD_LIBRARY_PATH', '/home/jojo/usb_cam_ros2/install/usb_cam/lib:/home/jojo/usb_camera/install/usb_cam/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib64:/opt/ros/humble/opt/libphidget22/lib:/opt/ros/humble/lib'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('ROS_LOCALHOST_ONLY', '0'), ('KDEDIRS', '/usr'), ('PATH', '/bin:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/sbin:/usr/local/bin:/usr/bin:/bin:/root/bin:/root/bin'), ('GDMSESSION', 'ukui'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('MAIL', '/var/spool/mail/root'), ('ROS_DISTRO', 'humble'), ('OLDPWD', '/root/Desktop/QtrosAndOpenCV'), ('TERM_PROGRAM', 'vscode'), ('_', '/bin/env')]), 'shell': False}
+[0.144123] (usb_camera_node) JobProgress: {'identifier': 'usb_camera_node', 'progress': 'cmake'}
+[0.144214] (usb_camera_node) JobProgress: {'identifier': 'usb_camera_node', 'progress': 'build'}
+[0.144268] (usb_camera_node) Command: {'cmd': ['/bin/cmake', '--build', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/usb_camera_node', '--', '-j16', '-l16'], 'cwd': '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/usb_camera_node', 'env': OrderedDict([('IMSETTINGS_INTEGRATE_DESKTOP', 'yes'), ('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('SESSION_MANAGER', 'local/unix:@/tmp/.ICE-unix/1914,unix/unix:/tmp/.ICE-unix/1914'), ('WINDOWID', '134217735'), ('COLORTERM', 'truecolor'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('HISTCONTROL', 'ignoredups'), ('GTK_IM_MODULE', 'ibus'), ('ROS_PYTHON_VERSION', '3'), ('HISTSIZE', '1000'), ('HOSTNAME', 'localhost'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXmF2B1w/agent.1914'), ('XMODIFIERS', '@im=ibus'), ('DESKTOP_SESSION', 'ukui'), ('SSH_AGENT_PID', '2209'), ('XDG_SEAT', 'seat0'), ('PWD', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/usb_camera_node'), ('LOGNAME', 'root'), ('XDG_SESSION_DESKTOP', 'ukui'), ('QT_QPA_PLATFORMTHEME', 'ukui'), ('XDG_SESSION_TYPE', 'x11'), ('XAUTHORITY', '/run/lightdm/root/xauthority'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/root'), ('GDM_LANG', 'zh_CN.utf8'), ('COMMAND_MODE', 'unix2003'), ('HOME', '/root'), ('LANG', 'zh_CN.utf8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:'), ('XDG_CURRENT_DESKTOP', 'UKUI'), ('VTE_VERSION', '7202'), ('AMENT_PREFIX_PATH', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack:/home/jojo/usb_cam_ros2/install/usb_cam:/home/jojo/usb_camera/install/usb_cam:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack:/home/jojo/usb_cam_ros2/install/usb_cam:/home/jojo/usb_camera/install/usb_cam:/opt/ros/humble'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('COLCON_PREFIX_PATH', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install:/home/jojo/usb_cam_ros2/install:/home/jojo/usb_camera/install'), ('IMSETTINGS_MODULE', 'IBus'), ('INIT_CWD', '/opt/qtcreator-14.0.0/bin'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.11/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('YAML_CPP_INCLUDE_DIR', '/usr/include/yaml-cpp'), ('USER', 'root'), ('DISPLAY', ':0'), ('SHLVL', '2'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '1'), ('XDG_SESSION_ID', '1'), ('LD_LIBRARY_PATH', '/home/jojo/usb_cam_ros2/install/usb_cam/lib:/home/jojo/usb_camera/install/usb_cam/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib64:/opt/ros/humble/opt/libphidget22/lib:/opt/ros/humble/lib'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('ROS_LOCALHOST_ONLY', '0'), ('KDEDIRS', '/usr'), ('PATH', '/bin:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/sbin:/usr/local/bin:/usr/bin:/bin:/root/bin:/root/bin'), ('GDMSESSION', 'ukui'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('MAIL', '/var/spool/mail/root'), ('ROS_DISTRO', 'humble'), ('OLDPWD', '/root/Desktop/QtrosAndOpenCV'), ('TERM_PROGRAM', 'vscode'), ('_', '/bin/env')]), 'shell': False}
+[0.226439] (-) TimerEvent: {}
+[0.244795] (camera_pack) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target camera_ros2_opencv4\x1b[0m\n'}
+[0.256285] (opencv_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/camera_pack.dir/src/opencv_node.cpp.o\x1b[0m\n'}
+[0.277091] (usb_camera_node) StdoutLine: {'line': b'[100%] Built target camera_pack\n'}
+[0.277253] (rqt_display_node) StdoutLine: {'line': b'[100%] Built target camera_pack\n'}
+[0.311084] (camera_pack) StdoutLine: {'line': b'[ 25%] Built target camera_ros2_opencv4_autogen\n'}
+[0.315279] (usb_camera_node) CommandEnded: {'returncode': 0}
+[0.336734] (-) TimerEvent: {}
+[0.338778] (rqt_display_node) CommandEnded: {'returncode': 0}
+[0.370619] (camera_pack) StdoutLine: {'line': b'[100%] Built target camera_ros2_opencv4\n'}
+[0.388195] (usb_camera_node) JobProgress: {'identifier': 'usb_camera_node', 'progress': 'install'}
+[0.410432] (usb_camera_node) Command: {'cmd': ['/bin/cmake', '--install', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/usb_camera_node'], 'cwd': '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/usb_camera_node', 'env': OrderedDict([('IMSETTINGS_INTEGRATE_DESKTOP', 'yes'), ('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('SESSION_MANAGER', 'local/unix:@/tmp/.ICE-unix/1914,unix/unix:/tmp/.ICE-unix/1914'), ('WINDOWID', '134217735'), ('COLORTERM', 'truecolor'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('HISTCONTROL', 'ignoredups'), ('GTK_IM_MODULE', 'ibus'), ('ROS_PYTHON_VERSION', '3'), ('HISTSIZE', '1000'), ('HOSTNAME', 'localhost'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXmF2B1w/agent.1914'), ('XMODIFIERS', '@im=ibus'), ('DESKTOP_SESSION', 'ukui'), ('SSH_AGENT_PID', '2209'), ('XDG_SEAT', 'seat0'), ('PWD', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/usb_camera_node'), ('LOGNAME', 'root'), ('XDG_SESSION_DESKTOP', 'ukui'), ('QT_QPA_PLATFORMTHEME', 'ukui'), ('XDG_SESSION_TYPE', 'x11'), ('XAUTHORITY', '/run/lightdm/root/xauthority'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/root'), ('GDM_LANG', 'zh_CN.utf8'), ('COMMAND_MODE', 'unix2003'), ('HOME', '/root'), ('LANG', 'zh_CN.utf8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:'), ('XDG_CURRENT_DESKTOP', 'UKUI'), ('VTE_VERSION', '7202'), ('AMENT_PREFIX_PATH', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack:/home/jojo/usb_cam_ros2/install/usb_cam:/home/jojo/usb_camera/install/usb_cam:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack:/home/jojo/usb_cam_ros2/install/usb_cam:/home/jojo/usb_camera/install/usb_cam:/opt/ros/humble'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('COLCON_PREFIX_PATH', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install:/home/jojo/usb_cam_ros2/install:/home/jojo/usb_camera/install'), ('IMSETTINGS_MODULE', 'IBus'), ('INIT_CWD', '/opt/qtcreator-14.0.0/bin'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.11/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('YAML_CPP_INCLUDE_DIR', '/usr/include/yaml-cpp'), ('USER', 'root'), ('DISPLAY', ':0'), ('SHLVL', '2'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '1'), ('XDG_SESSION_ID', '1'), ('LD_LIBRARY_PATH', '/home/jojo/usb_cam_ros2/install/usb_cam/lib:/home/jojo/usb_camera/install/usb_cam/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib64:/opt/ros/humble/opt/libphidget22/lib:/opt/ros/humble/lib'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('ROS_LOCALHOST_ONLY', '0'), ('KDEDIRS', '/usr'), ('PATH', '/bin:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/sbin:/usr/local/bin:/usr/bin:/bin:/root/bin:/root/bin'), ('GDMSESSION', 'ukui'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('MAIL', '/var/spool/mail/root'), ('ROS_DISTRO', 'humble'), ('OLDPWD', '/root/Desktop/QtrosAndOpenCV'), ('TERM_PROGRAM', 'vscode'), ('_', '/bin/env')]), 'shell': False}
+[0.428426] (usb_camera_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.428530] (usb_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/lib/usb_camera_node/camera_pack\n'}
+[0.428570] (usb_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/ament_index/resource_index/package_run_dependencies/usb_camera_node\n'}
+[0.428605] (usb_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/ament_index/resource_index/parent_prefix_path/usb_camera_node\n'}
+[0.428631] (usb_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/environment/ament_prefix_path.sh\n'}
+[0.428657] (usb_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/environment/ament_prefix_path.dsv\n'}
+[0.428686] (usb_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/environment/path.sh\n'}
+[0.428712] (usb_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/environment/path.dsv\n'}
+[0.428739] (usb_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/local_setup.bash\n'}
+[0.428765] (usb_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/local_setup.sh\n'}
+[0.428791] (camera_pack) CommandEnded: {'returncode': 0}
+[0.432657] (usb_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/local_setup.zsh\n'}
+[0.432768] (usb_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/local_setup.dsv\n'}
+[0.432805] (usb_camera_node) StdoutLine: {'line': b'-- Installing: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/package.dsv\n'}
+[0.432843] (usb_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/ament_index/resource_index/packages/usb_camera_node\n'}
+[0.432920] (usb_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/cmake/usb_camera_nodeConfig.cmake\n'}
+[0.432956] (usb_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/cmake/usb_camera_nodeConfig-version.cmake\n'}
+[0.432988] (usb_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/package.xml\n'}
+[0.441197] (usb_camera_node) CommandEnded: {'returncode': 0}
+[0.441433] (-) TimerEvent: {}
+[0.487441] (rqt_display_node) JobProgress: {'identifier': 'rqt_display_node', 'progress': 'install'}
+[0.487503] (rqt_display_node) Command: {'cmd': ['/bin/cmake', '--install', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/rqt_display_node'], 'cwd': '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/rqt_display_node', 'env': OrderedDict([('IMSETTINGS_INTEGRATE_DESKTOP', 'yes'), ('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('SESSION_MANAGER', 'local/unix:@/tmp/.ICE-unix/1914,unix/unix:/tmp/.ICE-unix/1914'), ('WINDOWID', '134217735'), ('COLORTERM', 'truecolor'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('HISTCONTROL', 'ignoredups'), ('GTK_IM_MODULE', 'ibus'), ('ROS_PYTHON_VERSION', '3'), ('HISTSIZE', '1000'), ('HOSTNAME', 'localhost'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXmF2B1w/agent.1914'), ('XMODIFIERS', '@im=ibus'), ('DESKTOP_SESSION', 'ukui'), ('SSH_AGENT_PID', '2209'), ('XDG_SEAT', 'seat0'), ('PWD', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/rqt_display_node'), ('LOGNAME', 'root'), ('XDG_SESSION_DESKTOP', 'ukui'), ('QT_QPA_PLATFORMTHEME', 'ukui'), ('XDG_SESSION_TYPE', 'x11'), ('XAUTHORITY', '/run/lightdm/root/xauthority'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/root'), ('GDM_LANG', 'zh_CN.utf8'), ('COMMAND_MODE', 'unix2003'), ('HOME', '/root'), ('LANG', 'zh_CN.utf8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:'), ('XDG_CURRENT_DESKTOP', 'UKUI'), ('VTE_VERSION', '7202'), ('AMENT_PREFIX_PATH', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack:/home/jojo/usb_cam_ros2/install/usb_cam:/home/jojo/usb_camera/install/usb_cam:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack:/home/jojo/usb_cam_ros2/install/usb_cam:/home/jojo/usb_camera/install/usb_cam:/opt/ros/humble'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('COLCON_PREFIX_PATH', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install:/home/jojo/usb_cam_ros2/install:/home/jojo/usb_camera/install'), ('IMSETTINGS_MODULE', 'IBus'), ('INIT_CWD', '/opt/qtcreator-14.0.0/bin'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.11/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('YAML_CPP_INCLUDE_DIR', '/usr/include/yaml-cpp'), ('USER', 'root'), ('DISPLAY', ':0'), ('SHLVL', '2'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '1'), ('XDG_SESSION_ID', '1'), ('LD_LIBRARY_PATH', '/home/jojo/usb_cam_ros2/install/usb_cam/lib:/home/jojo/usb_camera/install/usb_cam/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib64:/opt/ros/humble/opt/libphidget22/lib:/opt/ros/humble/lib'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('ROS_LOCALHOST_ONLY', '0'), ('KDEDIRS', '/usr'), ('PATH', '/bin:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/sbin:/usr/local/bin:/usr/bin:/bin:/root/bin:/root/bin'), ('GDMSESSION', 'ukui'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('MAIL', '/var/spool/mail/root'), ('ROS_DISTRO', 'humble'), ('OLDPWD', '/root/Desktop/QtrosAndOpenCV'), ('TERM_PROGRAM', 'vscode'), ('_', '/bin/env')]), 'shell': False}
+[0.503887] (rqt_display_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.507004] (rqt_display_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/lib/rqt_display_node/camera_pack\n'}
+[0.507306] (rqt_display_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/ament_index/resource_index/package_run_dependencies/rqt_display_node\n'}
+[0.507556] (rqt_display_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/ament_index/resource_index/parent_prefix_path/rqt_display_node\n'}
+[0.507907] (rqt_display_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/rqt_display_node/environment/ament_prefix_path.sh\n'}
+[0.508095] (rqt_display_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/rqt_display_node/environment/ament_prefix_path.dsv\n'}
+[0.508276] (rqt_display_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/rqt_display_node/environment/path.sh\n'}
+[0.508392] (rqt_display_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/rqt_display_node/environment/path.dsv\n'}
+[0.508478] (rqt_display_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/rqt_display_node/local_setup.bash\n'}
+[0.508785] (rqt_display_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/rqt_display_node/local_setup.sh\n'}
+[0.510009] (rqt_display_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/rqt_display_node/local_setup.zsh\n'}
+[0.510061] (rqt_display_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/rqt_display_node/local_setup.dsv\n'}
+[0.510088] (rqt_display_node) StdoutLine: {'line': b'-- Installing: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/rqt_display_node/package.dsv\n'}
+[0.512079] (rqt_display_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/ament_index/resource_index/packages/rqt_display_node\n'}
+[0.512477] (rqt_display_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/rqt_display_node/cmake/rqt_display_nodeConfig.cmake\n'}
+[0.512675] (rqt_display_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/rqt_display_node/cmake/rqt_display_nodeConfig-version.cmake\n'}
+[0.516071] (rqt_display_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/rqt_display_node/package.xml\n'}
+[0.520710] (rqt_display_node) CommandEnded: {'returncode': 0}
+[0.543444] (-) TimerEvent: {}
+[0.568238] (camera_pack) JobProgress: {'identifier': 'camera_pack', 'progress': 'install'}
+[0.568295] (camera_pack) Command: {'cmd': ['/bin/cmake', '--install', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/camera_pack'], 'cwd': '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/camera_pack', 'env': OrderedDict([('IMSETTINGS_INTEGRATE_DESKTOP', 'yes'), ('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('SESSION_MANAGER', 'local/unix:@/tmp/.ICE-unix/1914,unix/unix:/tmp/.ICE-unix/1914'), ('WINDOWID', '134217735'), ('COLORTERM', 'truecolor'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('HISTCONTROL', 'ignoredups'), ('GTK_IM_MODULE', 'ibus'), ('ROS_PYTHON_VERSION', '3'), ('HISTSIZE', '1000'), ('HOSTNAME', 'localhost'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXmF2B1w/agent.1914'), ('XMODIFIERS', '@im=ibus'), ('DESKTOP_SESSION', 'ukui'), ('SSH_AGENT_PID', '2209'), ('XDG_SEAT', 'seat0'), ('PWD', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/camera_pack'), ('LOGNAME', 'root'), ('XDG_SESSION_DESKTOP', 'ukui'), ('QT_QPA_PLATFORMTHEME', 'ukui'), ('XDG_SESSION_TYPE', 'x11'), ('XAUTHORITY', '/run/lightdm/root/xauthority'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/root'), ('GDM_LANG', 'zh_CN.utf8'), ('COMMAND_MODE', 'unix2003'), ('HOME', '/root'), ('LANG', 'zh_CN.utf8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:'), ('XDG_CURRENT_DESKTOP', 'UKUI'), ('VTE_VERSION', '7202'), ('AMENT_PREFIX_PATH', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack:/home/jojo/usb_cam_ros2/install/usb_cam:/home/jojo/usb_camera/install/usb_cam:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack:/home/jojo/usb_cam_ros2/install/usb_cam:/home/jojo/usb_camera/install/usb_cam:/opt/ros/humble'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('COLCON_PREFIX_PATH', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install:/home/jojo/usb_cam_ros2/install:/home/jojo/usb_camera/install'), ('IMSETTINGS_MODULE', 'IBus'), ('INIT_CWD', '/opt/qtcreator-14.0.0/bin'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.11/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('YAML_CPP_INCLUDE_DIR', '/usr/include/yaml-cpp'), ('USER', 'root'), ('DISPLAY', ':0'), ('SHLVL', '2'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '1'), ('XDG_SESSION_ID', '1'), ('LD_LIBRARY_PATH', '/home/jojo/usb_cam_ros2/install/usb_cam/lib:/home/jojo/usb_camera/install/usb_cam/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib64:/opt/ros/humble/opt/libphidget22/lib:/opt/ros/humble/lib'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('ROS_LOCALHOST_ONLY', '0'), ('KDEDIRS', '/usr'), ('PATH', '/bin:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/sbin:/usr/local/bin:/usr/bin:/bin:/root/bin:/root/bin'), ('GDMSESSION', 'ukui'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('MAIL', '/var/spool/mail/root'), ('ROS_DISTRO', 'humble'), ('OLDPWD', '/root/Desktop/QtrosAndOpenCV'), ('TERM_PROGRAM', 'vscode'), ('_', '/bin/env')]), 'shell': False}
+[0.596212] (usb_camera_node) JobEnded: {'identifier': 'usb_camera_node', 'rc': 0}
+[0.600216] (camera_pack) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.600620] (camera_pack) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/lib/camera_pack/camera_ros2_opencv4\n'}
+[0.601134] (camera_pack) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/share/ament_index/resource_index/package_run_dependencies/camera_pack\n'}
+[0.601319] (camera_pack) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/share/ament_index/resource_index/parent_prefix_path/camera_pack\n'}
+[0.601443] (camera_pack) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/share/camera_pack/environment/ament_prefix_path.sh\n'}
+[0.601795] (camera_pack) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/share/camera_pack/environment/ament_prefix_path.dsv\n'}
+[0.602259] (camera_pack) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/share/camera_pack/environment/path.sh\n'}
+[0.602740] (camera_pack) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/share/camera_pack/environment/path.dsv\n'}
+[0.602836] (camera_pack) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/share/camera_pack/local_setup.bash\n'}
+[0.602925] (camera_pack) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/share/camera_pack/local_setup.sh\n'}
+[0.603133] (camera_pack) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/share/camera_pack/local_setup.zsh\n'}
+[0.603265] (camera_pack) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/share/camera_pack/local_setup.dsv\n'}
+[0.603421] (camera_pack) StdoutLine: {'line': b'-- Installing: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/share/camera_pack/package.dsv\n'}
+[0.603588] (camera_pack) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/share/ament_index/resource_index/packages/camera_pack\n'}
+[0.603766] (camera_pack) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/share/camera_pack/cmake/camera_packConfig.cmake\n'}
+[0.605342] (camera_pack) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/share/camera_pack/cmake/camera_packConfig-version.cmake\n'}
+[0.605525] (camera_pack) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/share/camera_pack/package.xml\n'}
+[0.605638] (camera_pack) CommandEnded: {'returncode': 0}
+[0.655800] (-) TimerEvent: {}
+[0.682338] (rqt_display_node) JobEnded: {'identifier': 'rqt_display_node', 'rc': 0}
+[0.771350] (camera_pack) JobEnded: {'identifier': 'camera_pack', 'rc': 0}
+[0.776808] (-) TimerEvent: {}
+[0.891288] (-) TimerEvent: {}
+[0.996762] (-) TimerEvent: {}
+[1.104976] (-) TimerEvent: {}
+[1.211738] (-) TimerEvent: {}
+[1.319619] (-) TimerEvent: {}
+[1.433427] (-) TimerEvent: {}
+[1.542042] (-) TimerEvent: {}
+[1.644082] (-) TimerEvent: {}
+[1.752269] (-) TimerEvent: {}
+[1.853506] (-) TimerEvent: {}
+[1.958011] (-) TimerEvent: {}
+[2.059360] (-) TimerEvent: {}
+[2.160807] (-) TimerEvent: {}
+[2.262818] (-) TimerEvent: {}
+[2.364173] (-) TimerEvent: {}
+[2.465535] (-) TimerEvent: {}
+[2.567820] (-) TimerEvent: {}
+[2.668880] (-) TimerEvent: {}
+[2.770122] (-) TimerEvent: {}
+[2.873647] (-) TimerEvent: {}
+[2.975218] (-) TimerEvent: {}
+[3.076038] (-) TimerEvent: {}
+[3.177252] (-) TimerEvent: {}
+[3.278521] (-) TimerEvent: {}
+[3.379335] (-) TimerEvent: {}
+[3.480678] (-) TimerEvent: {}
+[3.581831] (-) TimerEvent: {}
+[3.682640] (-) TimerEvent: {}
+[3.783750] (-) TimerEvent: {}
+[3.885833] (-) TimerEvent: {}
+[3.986601] (-) TimerEvent: {}
+[4.087754] (-) TimerEvent: {}
+[4.188775] (-) TimerEvent: {}
+[4.290211] (-) TimerEvent: {}
+[4.392390] (-) TimerEvent: {}
+[4.493902] (-) TimerEvent: {}
+[4.595013] (-) TimerEvent: {}
+[4.696273] (-) TimerEvent: {}
+[4.797947] (-) TimerEvent: {}
+[4.900419] (-) TimerEvent: {}
+[5.001153] (-) TimerEvent: {}
+[5.101693] (-) TimerEvent: {}
+[5.205123] (-) TimerEvent: {}
+[5.306541] (-) TimerEvent: {}
+[5.407354] (-) TimerEvent: {}
+[5.509301] (-) TimerEvent: {}
+[5.610551] (-) TimerEvent: {}
+[5.711923] (-) TimerEvent: {}
+[5.814245] (-) TimerEvent: {}
+[5.915635] (-) TimerEvent: {}
+[6.017818] (-) TimerEvent: {}
+[6.118961] (-) TimerEvent: {}
+[6.222262] (-) TimerEvent: {}
+[6.322915] (-) TimerEvent: {}
+[6.424415] (-) TimerEvent: {}
+[6.526540] (-) TimerEvent: {}
+[6.627739] (-) TimerEvent: {}
+[6.728893] (-) TimerEvent: {}
+[6.830190] (-) TimerEvent: {}
+[6.931684] (-) TimerEvent: {}
+[7.034523] (-) TimerEvent: {}
+[7.136093] (-) TimerEvent: {}
+[7.237597] (-) TimerEvent: {}
+[7.342511] (-) TimerEvent: {}
+[7.443906] (-) TimerEvent: {}
+[7.544804] (-) TimerEvent: {}
+[7.646851] (-) TimerEvent: {}
+[7.750252] (-) TimerEvent: {}
+[7.851205] (-) TimerEvent: {}
+[7.954997] (-) TimerEvent: {}
+[8.056500] (-) TimerEvent: {}
+[8.158256] (-) TimerEvent: {}
+[8.259378] (-) TimerEvent: {}
+[8.362668] (-) TimerEvent: {}
+[8.463650] (-) TimerEvent: {}
+[8.566737] (-) TimerEvent: {}
+[8.668550] (-) TimerEvent: {}
+[8.769299] (-) TimerEvent: {}
+[8.869997] (-) TimerEvent: {}
+[8.971083] (-) TimerEvent: {}
+[9.071935] (-) TimerEvent: {}
+[9.172465] (-) TimerEvent: {}
+[9.274721] (-) TimerEvent: {}
+[9.375978] (-) TimerEvent: {}
+[9.478460] (-) TimerEvent: {}
+[9.579357] (-) TimerEvent: {}
+[9.680532] (-) TimerEvent: {}
+[9.781636] (-) TimerEvent: {}
+[9.882783] (-) TimerEvent: {}
+[9.984686] (-) TimerEvent: {}
+[10.086530] (-) TimerEvent: {}
+[10.187379] (-) TimerEvent: {}
+[10.288926] (-) TimerEvent: {}
+[10.391742] (-) TimerEvent: {}
+[10.492526] (-) TimerEvent: {}
+[10.593928] (-) TimerEvent: {}
+[10.694694] (-) TimerEvent: {}
+[10.795711] (-) TimerEvent: {}
+[10.896826] (-) TimerEvent: {}
+[10.997675] (-) TimerEvent: {}
+[11.099010] (-) TimerEvent: {}
+[11.200029] (-) TimerEvent: {}
+[11.300799] (-) TimerEvent: {}
+[11.401965] (-) TimerEvent: {}
+[11.503397] (-) TimerEvent: {}
+[11.605278] (-) TimerEvent: {}
+[11.709600] (-) TimerEvent: {}
+[11.810625] (-) TimerEvent: {}
+[11.911551] (-) TimerEvent: {}
+[12.012211] (-) TimerEvent: {}
+[12.113280] (-) TimerEvent: {}
+[12.215973] (-) TimerEvent: {}
+[12.316642] (-) TimerEvent: {}
+[12.417222] (-) TimerEvent: {}
+[12.518786] (-) TimerEvent: {}
+[12.626829] (-) TimerEvent: {}
+[12.727490] (-) TimerEvent: {}
+[12.830336] (-) TimerEvent: {}
+[12.931183] (-) TimerEvent: {}
+[13.033215] (-) TimerEvent: {}
+[13.134829] (-) TimerEvent: {}
+[13.235652] (-) TimerEvent: {}
+[13.336846] (-) TimerEvent: {}
+[13.438593] (-) TimerEvent: {}
+[13.539907] (-) TimerEvent: {}
+[13.640614] (-) TimerEvent: {}
+[13.742123] (-) TimerEvent: {}
+[13.843626] (-) TimerEvent: {}
+[13.944053] (-) TimerEvent: {}
+[14.048724] (-) TimerEvent: {}
+[14.150830] (-) TimerEvent: {}
+[14.251571] (-) TimerEvent: {}
+[14.353195] (-) TimerEvent: {}
+[14.456021] (-) TimerEvent: {}
+[14.558486] (-) TimerEvent: {}
+[14.659624] (-) TimerEvent: {}
+[14.760960] (-) TimerEvent: {}
+[14.862622] (-) TimerEvent: {}
+[14.963650] (-) TimerEvent: {}
+[15.065680] (-) TimerEvent: {}
+[15.167648] (-) TimerEvent: {}
+[15.268700] (-) TimerEvent: {}
+[15.369777] (-) TimerEvent: {}
+[15.470853] (-) TimerEvent: {}
+[15.572278] (-) TimerEvent: {}
+[15.673416] (-) TimerEvent: {}
+[15.774556] (-) TimerEvent: {}
+[15.876498] (-) TimerEvent: {}
+[15.978649] (-) TimerEvent: {}
+[16.079952] (-) TimerEvent: {}
+[16.181034] (-) TimerEvent: {}
+[16.282844] (-) TimerEvent: {}
+[16.384205] (-) TimerEvent: {}
+[16.485758] (-) TimerEvent: {}
+[16.586831] (-) TimerEvent: {}
+[16.687961] (-) TimerEvent: {}
+[16.788872] (-) TimerEvent: {}
+[16.889651] (-) TimerEvent: {}
+[16.990497] (-) TimerEvent: {}
+[17.091158] (-) TimerEvent: {}
+[17.191982] (-) TimerEvent: {}
+[17.293355] (-) TimerEvent: {}
+[17.395031] (-) TimerEvent: {}
+[17.496782] (-) TimerEvent: {}
+[17.597847] (-) TimerEvent: {}
+[17.699309] (-) TimerEvent: {}
+[17.800076] (-) TimerEvent: {}
+[17.901489] (-) TimerEvent: {}
+[18.003181] (-) TimerEvent: {}
+[18.104841] (-) TimerEvent: {}
+[18.205670] (-) TimerEvent: {}
+[18.306975] (-) TimerEvent: {}
+[18.407587] (-) TimerEvent: {}
+[18.508604] (-) TimerEvent: {}
+[18.609837] (-) TimerEvent: {}
+[18.710909] (-) TimerEvent: {}
+[18.811783] (-) TimerEvent: {}
+[18.912711] (-) TimerEvent: {}
+[19.013716] (-) TimerEvent: {}
+[19.116844] (-) TimerEvent: {}
+[19.218575] (-) TimerEvent: {}
+[19.322226] (-) TimerEvent: {}
+[19.423526] (-) TimerEvent: {}
+[19.526310] (-) TimerEvent: {}
+[19.627556] (-) TimerEvent: {}
+[19.728436] (-) TimerEvent: {}
+[19.830315] (-) TimerEvent: {}
+[19.933117] (-) TimerEvent: {}
+[20.034131] (-) TimerEvent: {}
+[20.135731] (-) TimerEvent: {}
+[20.237606] (-) TimerEvent: {}
+[20.338580] (-) TimerEvent: {}
+[20.442745] (-) TimerEvent: {}
+[20.543486] (-) TimerEvent: {}
+[20.644187] (-) TimerEvent: {}
+[20.745717] (-) TimerEvent: {}
+[20.846275] (-) TimerEvent: {}
+[20.948214] (-) TimerEvent: {}
+[21.051171] (-) TimerEvent: {}
+[21.153302] (-) TimerEvent: {}
+[21.255163] (-) TimerEvent: {}
+[21.355817] (-) TimerEvent: {}
+[21.457340] (-) TimerEvent: {}
+[21.558834] (-) TimerEvent: {}
+[21.659980] (-) TimerEvent: {}
+[21.762277] (-) TimerEvent: {}
+[21.863444] (-) TimerEvent: {}
+[21.964029] (-) TimerEvent: {}
+[22.064742] (-) TimerEvent: {}
+[22.166515] (-) TimerEvent: {}
+[22.267622] (-) TimerEvent: {}
+[22.368783] (-) TimerEvent: {}
+[22.469974] (-) TimerEvent: {}
+[22.573018] (-) TimerEvent: {}
+[22.674898] (-) TimerEvent: {}
+[22.777436] (-) TimerEvent: {}
+[22.878601] (-) TimerEvent: {}
+[22.979249] (-) TimerEvent: {}
+[23.080650] (-) TimerEvent: {}
+[23.182178] (-) TimerEvent: {}
+[23.283122] (-) TimerEvent: {}
+[23.384590] (-) TimerEvent: {}
+[23.485599] (-) TimerEvent: {}
+[23.587029] (-) TimerEvent: {}
+[23.688553] (-) TimerEvent: {}
+[23.790011] (-) TimerEvent: {}
+[23.890868] (-) TimerEvent: {}
+[23.991715] (-) TimerEvent: {}
+[24.093268] (-) TimerEvent: {}
+[24.194544] (-) TimerEvent: {}
+[24.295356] (-) TimerEvent: {}
+[24.396687] (-) TimerEvent: {}
+[24.498182] (-) TimerEvent: {}
+[24.598788] (-) TimerEvent: {}
+[24.700360] (-) TimerEvent: {}
+[24.801860] (-) TimerEvent: {}
+[24.903217] (-) TimerEvent: {}
+[25.003934] (-) TimerEvent: {}
+[25.105382] (-) TimerEvent: {}
+[25.206158] (-) TimerEvent: {}
+[25.307561] (-) TimerEvent: {}
+[25.408125] (-) TimerEvent: {}
+[25.508573] (-) TimerEvent: {}
+[25.611182] (-) TimerEvent: {}
+[25.712485] (-) TimerEvent: {}
+[25.813424] (-) TimerEvent: {}
+[25.914653] (-) TimerEvent: {}
+[26.015709] (-) TimerEvent: {}
+[26.117134] (-) TimerEvent: {}
+[26.218276] (-) TimerEvent: {}
+[26.318866] (-) TimerEvent: {}
+[26.420520] (-) TimerEvent: {}
+[26.521623] (-) TimerEvent: {}
+[26.622457] (-) TimerEvent: {}
+[26.723319] (-) TimerEvent: {}
+[26.824353] (-) TimerEvent: {}
+[26.926698] (-) TimerEvent: {}
+[27.027460] (-) TimerEvent: {}
+[27.128273] (-) TimerEvent: {}
+[27.229125] (-) TimerEvent: {}
+[27.330031] (-) TimerEvent: {}
+[27.431146] (-) TimerEvent: {}
+[27.532014] (-) TimerEvent: {}
+[27.633606] (-) TimerEvent: {}
+[27.734761] (-) TimerEvent: {}
+[27.836300] (-) TimerEvent: {}
+[27.948050] (-) TimerEvent: {}
+[28.064679] (-) TimerEvent: {}
+[28.168166] (-) TimerEvent: {}
+[28.308503] (-) TimerEvent: {}
+[28.409849] (-) TimerEvent: {}
+[28.516443] (-) TimerEvent: {}
+[28.619248] (-) TimerEvent: {}
+[28.731455] (-) TimerEvent: {}
+[28.835853] (-) TimerEvent: {}
+[28.939256] (-) TimerEvent: {}
+[29.047315] (-) TimerEvent: {}
+[29.149237] (-) TimerEvent: {}
+[29.253791] (-) TimerEvent: {}
+[29.355100] (-) TimerEvent: {}
+[29.457323] (-) TimerEvent: {}
+[29.563415] (-) TimerEvent: {}
+[29.668578] (-) TimerEvent: {}
+[29.772058] (-) TimerEvent: {}
+[29.826194] (opencv_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable camera_pack\x1b[0m\n'}
+[29.878200] (-) TimerEvent: {}
+[29.979717] (-) TimerEvent: {}
+[30.088729] (-) TimerEvent: {}
+[30.199020] (-) TimerEvent: {}
+[30.311264] (-) TimerEvent: {}
+[30.418467] (-) TimerEvent: {}
+[30.528220] (-) TimerEvent: {}
+[30.632857] (-) TimerEvent: {}
+[30.762377] (-) TimerEvent: {}
+[30.883459] (-) TimerEvent: {}
+[30.918514] (opencv_node) StdoutLine: {'line': b'[100%] Built target camera_pack\n'}
+[30.960529] (opencv_node) CommandEnded: {'returncode': 0}
+[30.983948] (-) TimerEvent: {}
+[31.036662] (opencv_node) JobProgress: {'identifier': 'opencv_node', 'progress': 'install'}
+[31.037298] (opencv_node) Command: {'cmd': ['/bin/cmake', '--install', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/opencv_node'], 'cwd': '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/opencv_node', 'env': OrderedDict([('IMSETTINGS_INTEGRATE_DESKTOP', 'yes'), ('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('SESSION_MANAGER', 'local/unix:@/tmp/.ICE-unix/1914,unix/unix:/tmp/.ICE-unix/1914'), ('WINDOWID', '134217735'), ('COLORTERM', 'truecolor'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('HISTCONTROL', 'ignoredups'), ('GTK_IM_MODULE', 'ibus'), ('ROS_PYTHON_VERSION', '3'), ('HISTSIZE', '1000'), ('HOSTNAME', 'localhost'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXmF2B1w/agent.1914'), ('XMODIFIERS', '@im=ibus'), ('DESKTOP_SESSION', 'ukui'), ('SSH_AGENT_PID', '2209'), ('XDG_SEAT', 'seat0'), ('PWD', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/opencv_node'), ('LOGNAME', 'root'), ('XDG_SESSION_DESKTOP', 'ukui'), ('QT_QPA_PLATFORMTHEME', 'ukui'), ('XDG_SESSION_TYPE', 'x11'), ('XAUTHORITY', '/run/lightdm/root/xauthority'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/root'), ('GDM_LANG', 'zh_CN.utf8'), ('COMMAND_MODE', 'unix2003'), ('HOME', '/root'), ('LANG', 'zh_CN.utf8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:'), ('XDG_CURRENT_DESKTOP', 'UKUI'), ('VTE_VERSION', '7202'), ('AMENT_PREFIX_PATH', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack:/home/jojo/usb_cam_ros2/install/usb_cam:/home/jojo/usb_camera/install/usb_cam:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack:/home/jojo/usb_cam_ros2/install/usb_cam:/home/jojo/usb_camera/install/usb_cam:/opt/ros/humble'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('COLCON_PREFIX_PATH', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install:/home/jojo/usb_cam_ros2/install:/home/jojo/usb_camera/install'), ('IMSETTINGS_MODULE', 'IBus'), ('INIT_CWD', '/opt/qtcreator-14.0.0/bin'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.11/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('YAML_CPP_INCLUDE_DIR', '/usr/include/yaml-cpp'), ('USER', 'root'), ('DISPLAY', ':0'), ('SHLVL', '2'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '1'), ('XDG_SESSION_ID', '1'), ('LD_LIBRARY_PATH', '/home/jojo/usb_cam_ros2/install/usb_cam/lib:/home/jojo/usb_camera/install/usb_cam/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib64:/opt/ros/humble/opt/libphidget22/lib:/opt/ros/humble/lib'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('ROS_LOCALHOST_ONLY', '0'), ('KDEDIRS', '/usr'), ('PATH', '/bin:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/sbin:/usr/local/bin:/usr/bin:/bin:/root/bin:/root/bin'), ('GDMSESSION', 'ukui'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('MAIL', '/var/spool/mail/root'), ('ROS_DISTRO', 'humble'), ('OLDPWD', '/root/Desktop/QtrosAndOpenCV'), ('TERM_PROGRAM', 'vscode'), ('_', '/bin/env')]), 'shell': False}
+[31.049474] (opencv_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[31.051304] (opencv_node) StdoutLine: {'line': b'-- Installing: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/lib/opencv_node/camera_pack\n'}
+[31.054001] (opencv_node) StdoutLine: {'line': b'-- Set runtime path of "/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/lib/opencv_node/camera_pack" to ""\n'}
+[31.054690] (opencv_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/ament_index/resource_index/package_run_dependencies/opencv_node\n'}
+[31.058987] (opencv_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/ament_index/resource_index/parent_prefix_path/opencv_node\n'}
+[31.059198] (opencv_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/environment/ament_prefix_path.sh\n'}
+[31.059544] (opencv_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/environment/ament_prefix_path.dsv\n'}
+[31.059642] (opencv_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/environment/path.sh\n'}
+[31.059731] (opencv_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/environment/path.dsv\n'}
+[31.059899] (opencv_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/local_setup.bash\n'}
+[31.059991] (opencv_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/local_setup.sh\n'}
+[31.060077] (opencv_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/local_setup.zsh\n'}
+[31.060165] (opencv_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/local_setup.dsv\n'}
+[31.060254] (opencv_node) StdoutLine: {'line': b'-- Installing: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/package.dsv\n'}
+[31.060374] (opencv_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/ament_index/resource_index/packages/opencv_node\n'}
+[31.060545] (opencv_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/cmake/opencv_nodeConfig.cmake\n'}
+[31.060710] (opencv_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/cmake/opencv_nodeConfig-version.cmake\n'}
+[31.061179] (opencv_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/package.xml\n'}
+[31.062285] (opencv_node) CommandEnded: {'returncode': 0}
+[31.084248] (-) TimerEvent: {}
+[31.132170] (opencv_node) JobEnded: {'identifier': 'opencv_node', 'rc': 0}
+[31.133634] (-) EventReactorShutdown: {}

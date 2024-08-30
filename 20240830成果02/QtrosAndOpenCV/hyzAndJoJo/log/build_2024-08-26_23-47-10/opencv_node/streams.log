@@ -1,0 +1,25 @@
+[0.034s] Invoking command in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/opencv_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/bin/env /bin/cmake --build /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/opencv_node -- -j16 -l16
+[0.237s] [ 50%] [32mBuilding CXX object CMakeFiles/camera_pack.dir/src/opencv_node.cpp.o[0m
+[27.826s] [100%] [32m[1mLinking CXX executable camera_pack[0m
+[29.030s] [100%] Built target camera_pack
+[29.048s] Invoked command in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/opencv_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/bin/env /bin/cmake --build /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/opencv_node -- -j16 -l16
+[29.104s] Invoking command in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/opencv_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/bin/env /bin/cmake --install /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/opencv_node
+[29.114s] -- Install configuration: ""
+[29.114s] -- Execute custom install script
+[29.115s] -- Symlinking: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/lib/opencv_node/camera_pack
+[29.130s] -- Symlinking: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/ament_index/resource_index/package_run_dependencies/opencv_node
+[29.145s] -- Symlinking: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/ament_index/resource_index/parent_prefix_path/opencv_node
+[29.161s] -- Symlinking: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/environment/ament_prefix_path.sh
+[29.173s] -- Symlinking: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/environment/ament_prefix_path.dsv
+[29.185s] -- Symlinking: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/environment/path.sh
+[29.200s] -- Symlinking: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/environment/path.dsv
+[29.212s] -- Symlinking: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/local_setup.bash
+[29.225s] -- Symlinking: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/local_setup.sh
+[29.237s] -- Symlinking: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/local_setup.zsh
+[29.256s] -- Symlinking: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/local_setup.dsv
+[29.267s] -- Symlinking: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/package.dsv
+[29.303s] -- Symlinking: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/ament_index/resource_index/packages/opencv_node
+[29.322s] -- Symlinking: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/cmake/opencv_nodeConfig.cmake
+[29.342s] -- Symlinking: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/cmake/opencv_nodeConfig-version.cmake
+[29.361s] -- Symlinking: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/package.xml
+[29.428s] Invoked command in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/opencv_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/bin/env /bin/cmake --install /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/opencv_node

@@ -1,0 +1,11 @@
+/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/camera_pack/CMakeFiles/uninstall.dir
+/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/camera_pack/CMakeFiles/camera_pack_uninstall.dir
+/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/camera_pack/CMakeFiles/camera_ros2_opencv4.dir
+/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/camera_pack/CMakeFiles/test.dir
+/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/camera_pack/CMakeFiles/edit_cache.dir
+/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/camera_pack/CMakeFiles/rebuild_cache.dir
+/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/camera_pack/CMakeFiles/list_install_components.dir
+/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/camera_pack/CMakeFiles/install.dir
+/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/camera_pack/CMakeFiles/install/local.dir
+/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/camera_pack/CMakeFiles/install/strip.dir
+/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/camera_pack/CMakeFiles/camera_ros2_opencv4_autogen.dir

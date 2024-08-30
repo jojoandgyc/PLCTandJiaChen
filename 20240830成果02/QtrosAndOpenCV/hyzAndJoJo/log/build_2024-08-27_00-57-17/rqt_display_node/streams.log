@@ -1,0 +1,25 @@
+[0.123s] Invoking command in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/rqt_display_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/bin/env /bin/cmake --build /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/rqt_display_node -- -j16 -l16
+[0.274s] [ 50%] [32mBuilding CXX object CMakeFiles/camera_pack.dir/src/rqt_display_node.cpp.o[0m
+[24.147s] [100%] [32m[1mLinking CXX executable camera_pack[0m
+[25.711s] [100%] Built target camera_pack
+[25.726s] Invoked command in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/rqt_display_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/bin/env /bin/cmake --build /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/rqt_display_node -- -j16 -l16
+[25.813s] Invoking command in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/rqt_display_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/bin/env /bin/cmake --install /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/rqt_display_node
+[25.835s] -- Install configuration: ""
+[25.836s] -- Execute custom install script
+[25.837s] -- Up-to-date symlink: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/lib/rqt_display_node/camera_pack
+[25.837s] -- Up-to-date symlink: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/ament_index/resource_index/package_run_dependencies/rqt_display_node
+[25.838s] -- Up-to-date symlink: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/ament_index/resource_index/parent_prefix_path/rqt_display_node
+[25.839s] -- Up-to-date symlink: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/rqt_display_node/environment/ament_prefix_path.sh
+[25.839s] -- Up-to-date symlink: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/rqt_display_node/environment/ament_prefix_path.dsv
+[25.840s] -- Up-to-date symlink: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/rqt_display_node/environment/path.sh
+[25.840s] -- Up-to-date symlink: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/rqt_display_node/environment/path.dsv
+[25.841s] -- Up-to-date symlink: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/rqt_display_node/local_setup.bash
+[25.842s] -- Up-to-date symlink: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/rqt_display_node/local_setup.sh
+[25.842s] -- Up-to-date symlink: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/rqt_display_node/local_setup.zsh
+[25.843s] -- Up-to-date symlink: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/rqt_display_node/local_setup.dsv
+[25.843s] -- Symlinking: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/rqt_display_node/package.dsv
+[25.864s] -- Up-to-date symlink: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/ament_index/resource_index/packages/rqt_display_node
+[25.865s] -- Up-to-date symlink: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/rqt_display_node/cmake/rqt_display_nodeConfig.cmake
+[25.866s] -- Up-to-date symlink: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/rqt_display_node/cmake/rqt_display_nodeConfig-version.cmake
+[25.866s] -- Up-to-date symlink: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/rqt_display_node/package.xml
+[25.873s] Invoked command in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/rqt_display_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/bin/env /bin/cmake --install /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/rqt_display_node

@@ -1,0 +1,16 @@
+/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/lib/usb_camera_node/camera_pack
+/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/ament_index/resource_index/package_run_dependencies/usb_camera_node
+/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/ament_index/resource_index/parent_prefix_path/usb_camera_node
+/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/environment/ament_prefix_path.sh
+/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/environment/ament_prefix_path.dsv
+/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/environment/path.sh
+/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/environment/path.dsv
+/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/local_setup.bash
+/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/local_setup.sh
+/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/local_setup.zsh
+/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/local_setup.dsv
+/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/package.dsv
+/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/ament_index/resource_index/packages/usb_camera_node
+/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/cmake/usb_camera_nodeConfig.cmake
+/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/cmake/usb_camera_nodeConfig-version.cmake
+/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/package.xml

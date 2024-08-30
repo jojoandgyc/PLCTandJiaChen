@@ -1,0 +1,337 @@
+[0.000000] (-) TimerEvent: {}
+[0.003885] (-) JobUnselected: {'identifier': 'camera_pack'}
+[0.004041] (-) JobUnselected: {'identifier': 'rqt_display_node'}
+[0.004104] (-) JobUnselected: {'identifier': 'usb_camera_node'}
+[0.004533] (opencv_node) JobQueued: {'identifier': 'opencv_node', 'dependencies': OrderedDict()}
+[0.004659] (opencv_node) JobStarted: {'identifier': 'opencv_node'}
+[0.052141] (opencv_node) JobProgress: {'identifier': 'opencv_node', 'progress': 'cmake'}
+[0.053610] (opencv_node) JobProgress: {'identifier': 'opencv_node', 'progress': 'build'}
+[0.055109] (opencv_node) Command: {'cmd': ['/bin/cmake', '--build', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/opencv_node', '--', '-j16', '-l16'], 'cwd': '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/opencv_node', 'env': OrderedDict([('IMSETTINGS_INTEGRATE_DESKTOP', 'yes'), ('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('SESSION_MANAGER', 'local/unix:@/tmp/.ICE-unix/1914,unix/unix:/tmp/.ICE-unix/1914'), ('WINDOWID', '134217735'), ('COLORTERM', 'truecolor'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('HISTCONTROL', 'ignoredups'), ('GTK_IM_MODULE', 'ibus'), ('ROS_PYTHON_VERSION', '3'), ('HISTSIZE', '1000'), ('HOSTNAME', 'localhost'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXmF2B1w/agent.1914'), ('XMODIFIERS', '@im=ibus'), ('DESKTOP_SESSION', 'ukui'), ('SSH_AGENT_PID', '2209'), ('XDG_SEAT', 'seat0'), ('PWD', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/opencv_node'), ('LOGNAME', 'root'), ('XDG_SESSION_DESKTOP', 'ukui'), ('QT_QPA_PLATFORMTHEME', 'ukui'), ('XDG_SESSION_TYPE', 'x11'), ('XAUTHORITY', '/run/lightdm/root/xauthority'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/root'), ('GDM_LANG', 'zh_CN.utf8'), ('COMMAND_MODE', 'unix2003'), ('HOME', '/root'), ('LANG', 'zh_CN.utf8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:'), ('XDG_CURRENT_DESKTOP', 'UKUI'), ('VTE_VERSION', '7202'), ('AMENT_PREFIX_PATH', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack:/home/jojo/usb_cam_ros2/install/usb_cam:/home/jojo/usb_camera/install/usb_cam:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack:/home/jojo/usb_cam_ros2/install/usb_cam:/home/jojo/usb_camera/install/usb_cam:/opt/ros/humble'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('COLCON_PREFIX_PATH', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install:/home/jojo/usb_cam_ros2/install:/home/jojo/usb_camera/install'), ('IMSETTINGS_MODULE', 'IBus'), ('INIT_CWD', '/opt/qtcreator-14.0.0/bin'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.11/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('YAML_CPP_INCLUDE_DIR', '/usr/include/yaml-cpp'), ('USER', 'root'), ('DISPLAY', ':0'), ('SHLVL', '2'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '1'), ('XDG_SESSION_ID', '1'), ('LD_LIBRARY_PATH', '/home/jojo/usb_cam_ros2/install/usb_cam/lib:/home/jojo/usb_camera/install/usb_cam/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib64:/opt/ros/humble/opt/libphidget22/lib:/opt/ros/humble/lib'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('ROS_LOCALHOST_ONLY', '0'), ('KDEDIRS', '/usr'), ('PATH', '/bin:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/sbin:/usr/local/bin:/usr/bin:/bin:/root/bin:/root/bin'), ('GDMSESSION', 'ukui'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('MAIL', '/var/spool/mail/root'), ('ROS_DISTRO', 'humble'), ('OLDPWD', '/root/Desktop/QtrosAndOpenCV'), ('TERM_PROGRAM', 'vscode'), ('_', '/bin/env')]), 'shell': False}
+[0.102569] (-) TimerEvent: {}
+[0.199162] (opencv_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/camera_pack.dir/src/opencv_node.cpp.o\x1b[0m\n'}
+[0.210058] (-) TimerEvent: {}
+[0.310678] (-) TimerEvent: {}
+[0.414271] (-) TimerEvent: {}
+[0.524169] (-) TimerEvent: {}
+[0.626647] (-) TimerEvent: {}
+[0.727824] (-) TimerEvent: {}
+[0.838394] (-) TimerEvent: {}
+[0.943992] (-) TimerEvent: {}
+[1.070744] (-) TimerEvent: {}
+[1.175474] (-) TimerEvent: {}
+[1.330156] (-) TimerEvent: {}
+[1.454231] (-) TimerEvent: {}
+[1.585427] (-) TimerEvent: {}
+[1.687377] (-) TimerEvent: {}
+[1.797921] (-) TimerEvent: {}
+[1.907188] (-) TimerEvent: {}
+[2.008524] (-) TimerEvent: {}
+[2.121433] (-) TimerEvent: {}
+[2.222415] (-) TimerEvent: {}
+[2.325429] (-) TimerEvent: {}
+[2.447520] (-) TimerEvent: {}
+[2.552557] (-) TimerEvent: {}
+[2.665448] (-) TimerEvent: {}
+[2.781502] (-) TimerEvent: {}
+[2.889663] (-) TimerEvent: {}
+[2.999068] (-) TimerEvent: {}
+[3.100325] (-) TimerEvent: {}
+[3.205489] (-) TimerEvent: {}
+[3.307989] (-) TimerEvent: {}
+[3.423566] (-) TimerEvent: {}
+[3.562695] (-) TimerEvent: {}
+[3.670427] (-) TimerEvent: {}
+[3.771938] (-) TimerEvent: {}
+[3.873144] (-) TimerEvent: {}
+[3.973942] (-) TimerEvent: {}
+[4.074970] (-) TimerEvent: {}
+[4.234567] (-) TimerEvent: {}
+[4.337266] (-) TimerEvent: {}
+[4.470812] (-) TimerEvent: {}
+[4.578991] (-) TimerEvent: {}
+[4.686938] (-) TimerEvent: {}
+[4.796662] (-) TimerEvent: {}
+[4.897715] (-) TimerEvent: {}
+[4.998631] (-) TimerEvent: {}
+[5.100276] (-) TimerEvent: {}
+[5.202674] (-) TimerEvent: {}
+[5.304359] (-) TimerEvent: {}
+[5.405744] (-) TimerEvent: {}
+[5.506578] (-) TimerEvent: {}
+[5.608874] (-) TimerEvent: {}
+[5.709888] (-) TimerEvent: {}
+[5.811281] (-) TimerEvent: {}
+[5.912716] (-) TimerEvent: {}
+[6.014408] (-) TimerEvent: {}
+[6.116627] (-) TimerEvent: {}
+[6.217727] (-) TimerEvent: {}
+[6.318440] (-) TimerEvent: {}
+[6.419993] (-) TimerEvent: {}
+[6.520694] (-) TimerEvent: {}
+[6.626442] (-) TimerEvent: {}
+[6.729009] (-) TimerEvent: {}
+[6.830339] (-) TimerEvent: {}
+[6.930786] (-) TimerEvent: {}
+[7.032177] (-) TimerEvent: {}
+[7.133085] (-) TimerEvent: {}
+[7.234903] (-) TimerEvent: {}
+[7.336930] (-) TimerEvent: {}
+[7.438696] (-) TimerEvent: {}
+[7.539788] (-) TimerEvent: {}
+[7.641430] (-) TimerEvent: {}
+[7.742020] (-) TimerEvent: {}
+[7.843440] (-) TimerEvent: {}
+[7.944775] (-) TimerEvent: {}
+[8.046037] (-) TimerEvent: {}
+[8.147301] (-) TimerEvent: {}
+[8.248742] (-) TimerEvent: {}
+[8.349955] (-) TimerEvent: {}
+[8.450719] (-) TimerEvent: {}
+[8.552172] (-) TimerEvent: {}
+[8.669239] (-) TimerEvent: {}
+[8.771208] (-) TimerEvent: {}
+[8.872000] (-) TimerEvent: {}
+[8.972563] (-) TimerEvent: {}
+[9.073538] (-) TimerEvent: {}
+[9.178567] (-) TimerEvent: {}
+[9.318032] (-) TimerEvent: {}
+[9.418780] (-) TimerEvent: {}
+[9.519292] (-) TimerEvent: {}
+[9.622652] (-) TimerEvent: {}
+[9.723717] (-) TimerEvent: {}
+[9.825433] (-) TimerEvent: {}
+[9.926123] (-) TimerEvent: {}
+[10.027474] (-) TimerEvent: {}
+[10.131775] (-) TimerEvent: {}
+[10.233829] (-) TimerEvent: {}
+[10.334915] (-) TimerEvent: {}
+[10.436154] (-) TimerEvent: {}
+[10.539381] (-) TimerEvent: {}
+[10.641052] (-) TimerEvent: {}
+[10.743118] (-) TimerEvent: {}
+[10.844731] (-) TimerEvent: {}
+[10.947269] (-) TimerEvent: {}
+[11.048537] (-) TimerEvent: {}
+[11.175906] (-) TimerEvent: {}
+[11.300287] (-) TimerEvent: {}
+[11.416060] (-) TimerEvent: {}
+[11.553930] (-) TimerEvent: {}
+[11.666087] (-) TimerEvent: {}
+[11.774745] (-) TimerEvent: {}
+[11.893167] (-) TimerEvent: {}
+[11.996218] (-) TimerEvent: {}
+[12.097722] (-) TimerEvent: {}
+[12.198582] (-) TimerEvent: {}
+[12.322750] (-) TimerEvent: {}
+[12.464931] (-) TimerEvent: {}
+[12.618315] (-) TimerEvent: {}
+[12.727564] (-) TimerEvent: {}
+[12.828944] (-) TimerEvent: {}
+[12.929469] (-) TimerEvent: {}
+[13.030276] (-) TimerEvent: {}
+[13.131131] (-) TimerEvent: {}
+[13.232907] (-) TimerEvent: {}
+[13.334795] (-) TimerEvent: {}
+[13.435512] (-) TimerEvent: {}
+[13.536697] (-) TimerEvent: {}
+[13.637340] (-) TimerEvent: {}
+[13.739017] (-) TimerEvent: {}
+[13.840791] (-) TimerEvent: {}
+[13.941671] (-) TimerEvent: {}
+[14.042952] (-) TimerEvent: {}
+[14.144040] (-) TimerEvent: {}
+[14.245301] (-) TimerEvent: {}
+[14.345983] (-) TimerEvent: {}
+[14.447160] (-) TimerEvent: {}
+[14.547810] (-) TimerEvent: {}
+[14.648914] (-) TimerEvent: {}
+[14.749575] (-) TimerEvent: {}
+[14.850652] (-) TimerEvent: {}
+[14.952642] (-) TimerEvent: {}
+[15.054496] (-) TimerEvent: {}
+[15.155591] (-) TimerEvent: {}
+[15.256292] (-) TimerEvent: {}
+[15.359765] (-) TimerEvent: {}
+[15.461136] (-) TimerEvent: {}
+[15.563116] (-) TimerEvent: {}
+[15.663993] (-) TimerEvent: {}
+[15.765319] (-) TimerEvent: {}
+[15.866060] (-) TimerEvent: {}
+[15.966844] (-) TimerEvent: {}
+[16.067615] (-) TimerEvent: {}
+[16.168984] (-) TimerEvent: {}
+[16.270472] (-) TimerEvent: {}
+[16.372373] (-) TimerEvent: {}
+[16.474323] (-) TimerEvent: {}
+[16.575054] (-) TimerEvent: {}
+[16.676604] (-) TimerEvent: {}
+[16.777478] (-) TimerEvent: {}
+[16.880868] (-) TimerEvent: {}
+[16.982877] (-) TimerEvent: {}
+[17.083285] (-) TimerEvent: {}
+[17.184181] (-) TimerEvent: {}
+[17.285437] (-) TimerEvent: {}
+[17.386350] (-) TimerEvent: {}
+[17.487574] (-) TimerEvent: {}
+[17.588658] (-) TimerEvent: {}
+[17.689424] (-) TimerEvent: {}
+[17.792952] (-) TimerEvent: {}
+[17.894673] (-) TimerEvent: {}
+[17.996738] (-) TimerEvent: {}
+[18.099152] (-) TimerEvent: {}
+[18.201411] (-) TimerEvent: {}
+[18.302509] (-) TimerEvent: {}
+[18.403207] (-) TimerEvent: {}
+[18.504504] (-) TimerEvent: {}
+[18.605975] (-) TimerEvent: {}
+[18.706810] (-) TimerEvent: {}
+[18.808091] (-) TimerEvent: {}
+[18.908747] (-) TimerEvent: {}
+[19.009315] (-) TimerEvent: {}
+[19.110797] (-) TimerEvent: {}
+[19.211402] (-) TimerEvent: {}
+[19.313046] (-) TimerEvent: {}
+[19.417117] (-) TimerEvent: {}
+[19.517821] (-) TimerEvent: {}
+[19.619775] (-) TimerEvent: {}
+[19.721194] (-) TimerEvent: {}
+[19.822349] (-) TimerEvent: {}
+[19.923674] (-) TimerEvent: {}
+[20.024819] (-) TimerEvent: {}
+[20.126299] (-) TimerEvent: {}
+[20.227600] (-) TimerEvent: {}
+[20.328975] (-) TimerEvent: {}
+[20.431672] (-) TimerEvent: {}
+[20.532406] (-) TimerEvent: {}
+[20.633244] (-) TimerEvent: {}
+[20.733837] (-) TimerEvent: {}
+[20.834986] (-) TimerEvent: {}
+[20.936672] (-) TimerEvent: {}
+[21.037825] (-) TimerEvent: {}
+[21.138832] (-) TimerEvent: {}
+[21.241167] (-) TimerEvent: {}
+[21.343373] (-) TimerEvent: {}
+[21.445153] (-) TimerEvent: {}
+[21.547463] (-) TimerEvent: {}
+[21.649715] (-) TimerEvent: {}
+[21.751119] (-) TimerEvent: {}
+[21.852699] (-) TimerEvent: {}
+[21.953434] (-) TimerEvent: {}
+[22.054194] (-) TimerEvent: {}
+[22.160633] (-) TimerEvent: {}
+[22.261635] (-) TimerEvent: {}
+[22.365130] (-) TimerEvent: {}
+[22.466592] (-) TimerEvent: {}
+[22.568216] (-) TimerEvent: {}
+[22.668999] (-) TimerEvent: {}
+[22.769905] (-) TimerEvent: {}
+[22.871259] (-) TimerEvent: {}
+[22.971982] (-) TimerEvent: {}
+[23.073069] (-) TimerEvent: {}
+[23.174085] (-) TimerEvent: {}
+[23.274853] (-) TimerEvent: {}
+[23.376227] (-) TimerEvent: {}
+[23.477262] (-) TimerEvent: {}
+[23.579080] (-) TimerEvent: {}
+[23.680325] (-) TimerEvent: {}
+[23.782965] (-) TimerEvent: {}
+[23.884536] (-) TimerEvent: {}
+[23.985716] (-) TimerEvent: {}
+[24.086759] (-) TimerEvent: {}
+[24.187426] (-) TimerEvent: {}
+[24.288290] (-) TimerEvent: {}
+[24.397493] (-) TimerEvent: {}
+[24.498398] (-) TimerEvent: {}
+[24.599168] (-) TimerEvent: {}
+[24.701602] (-) TimerEvent: {}
+[24.802149] (-) TimerEvent: {}
+[24.903546] (-) TimerEvent: {}
+[25.004788] (-) TimerEvent: {}
+[25.148036] (-) TimerEvent: {}
+[25.255319] (-) TimerEvent: {}
+[25.366580] (-) TimerEvent: {}
+[25.467409] (-) TimerEvent: {}
+[25.568138] (-) TimerEvent: {}
+[25.669806] (-) TimerEvent: {}
+[25.770496] (-) TimerEvent: {}
+[25.871672] (-) TimerEvent: {}
+[25.973066] (-) TimerEvent: {}
+[26.074059] (-) TimerEvent: {}
+[26.174766] (-) TimerEvent: {}
+[26.275848] (-) TimerEvent: {}
+[26.376949] (-) TimerEvent: {}
+[26.480520] (-) TimerEvent: {}
+[26.582340] (-) TimerEvent: {}
+[26.682815] (-) TimerEvent: {}
+[26.784737] (-) TimerEvent: {}
+[26.886750] (-) TimerEvent: {}
+[26.987847] (-) TimerEvent: {}
+[27.089010] (-) TimerEvent: {}
+[27.190109] (-) TimerEvent: {}
+[27.291068] (-) TimerEvent: {}
+[27.393430] (-) TimerEvent: {}
+[27.494171] (-) TimerEvent: {}
+[27.595442] (-) TimerEvent: {}
+[27.714505] (-) TimerEvent: {}
+[27.816028] (-) TimerEvent: {}
+[27.916602] (-) TimerEvent: {}
+[28.017886] (-) TimerEvent: {}
+[28.118482] (-) TimerEvent: {}
+[28.219112] (-) TimerEvent: {}
+[28.319573] (-) TimerEvent: {}
+[28.421017] (-) TimerEvent: {}
+[28.522981] (-) TimerEvent: {}
+[28.626476] (-) TimerEvent: {}
+[28.727941] (-) TimerEvent: {}
+[28.830216] (-) TimerEvent: {}
+[28.955936] (-) TimerEvent: {}
+[29.059337] (-) TimerEvent: {}
+[29.159870] (-) TimerEvent: {}
+[29.260921] (-) TimerEvent: {}
+[29.362769] (-) TimerEvent: {}
+[29.484501] (-) TimerEvent: {}
+[29.591807] (-) TimerEvent: {}
+[29.693348] (-) TimerEvent: {}
+[29.812480] (-) TimerEvent: {}
+[29.920791] (-) TimerEvent: {}
+[30.022583] (-) TimerEvent: {}
+[30.123311] (-) TimerEvent: {}
+[30.139776] (opencv_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable camera_pack\x1b[0m\n'}
+[30.224033] (-) TimerEvent: {}
+[30.326679] (-) TimerEvent: {}
+[30.433362] (-) TimerEvent: {}
+[30.534922] (-) TimerEvent: {}
+[30.669031] (-) TimerEvent: {}
+[30.776328] (-) TimerEvent: {}
+[30.885351] (-) TimerEvent: {}
+[31.068578] (-) TimerEvent: {}
+[31.169336] (-) TimerEvent: {}
+[31.270277] (-) TimerEvent: {}
+[31.369882] (opencv_node) StdoutLine: {'line': b'[100%] Built target camera_pack\n'}
+[31.370758] (-) TimerEvent: {}
+[31.400465] (opencv_node) CommandEnded: {'returncode': 0}
+[31.445814] (opencv_node) JobProgress: {'identifier': 'opencv_node', 'progress': 'install'}
+[31.460970] (opencv_node) Command: {'cmd': ['/bin/cmake', '--install', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/opencv_node'], 'cwd': '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/opencv_node', 'env': OrderedDict([('IMSETTINGS_INTEGRATE_DESKTOP', 'yes'), ('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('SESSION_MANAGER', 'local/unix:@/tmp/.ICE-unix/1914,unix/unix:/tmp/.ICE-unix/1914'), ('WINDOWID', '134217735'), ('COLORTERM', 'truecolor'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('HISTCONTROL', 'ignoredups'), ('GTK_IM_MODULE', 'ibus'), ('ROS_PYTHON_VERSION', '3'), ('HISTSIZE', '1000'), ('HOSTNAME', 'localhost'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXmF2B1w/agent.1914'), ('XMODIFIERS', '@im=ibus'), ('DESKTOP_SESSION', 'ukui'), ('SSH_AGENT_PID', '2209'), ('XDG_SEAT', 'seat0'), ('PWD', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/opencv_node'), ('LOGNAME', 'root'), ('XDG_SESSION_DESKTOP', 'ukui'), ('QT_QPA_PLATFORMTHEME', 'ukui'), ('XDG_SESSION_TYPE', 'x11'), ('XAUTHORITY', '/run/lightdm/root/xauthority'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/root'), ('GDM_LANG', 'zh_CN.utf8'), ('COMMAND_MODE', 'unix2003'), ('HOME', '/root'), ('LANG', 'zh_CN.utf8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:'), ('XDG_CURRENT_DESKTOP', 'UKUI'), ('VTE_VERSION', '7202'), ('AMENT_PREFIX_PATH', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack:/home/jojo/usb_cam_ros2/install/usb_cam:/home/jojo/usb_camera/install/usb_cam:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack:/home/jojo/usb_cam_ros2/install/usb_cam:/home/jojo/usb_camera/install/usb_cam:/opt/ros/humble'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('COLCON_PREFIX_PATH', '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install:/home/jojo/usb_cam_ros2/install:/home/jojo/usb_camera/install'), ('IMSETTINGS_MODULE', 'IBus'), ('INIT_CWD', '/opt/qtcreator-14.0.0/bin'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.11/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('YAML_CPP_INCLUDE_DIR', '/usr/include/yaml-cpp'), ('USER', 'root'), ('DISPLAY', ':0'), ('SHLVL', '2'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '1'), ('XDG_SESSION_ID', '1'), ('LD_LIBRARY_PATH', '/home/jojo/usb_cam_ros2/install/usb_cam/lib:/home/jojo/usb_camera/install/usb_cam/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib64:/opt/ros/humble/opt/libphidget22/lib:/opt/ros/humble/lib'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('ROS_LOCALHOST_ONLY', '0'), ('KDEDIRS', '/usr'), ('PATH', '/bin:/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/sbin:/usr/local/bin:/usr/bin:/bin:/root/bin:/root/bin'), ('GDMSESSION', 'ukui'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('MAIL', '/var/spool/mail/root'), ('ROS_DISTRO', 'humble'), ('OLDPWD', '/root/Desktop/QtrosAndOpenCV'), ('TERM_PROGRAM', 'vscode'), ('_', '/bin/env')]), 'shell': False}
+[31.471103] (-) TimerEvent: {}
+[31.472554] (opencv_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[31.473226] (opencv_node) StdoutLine: {'line': b'-- Installing: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/lib/opencv_node/camera_pack\n'}
+[31.476198] (opencv_node) StdoutLine: {'line': b'-- Set runtime path of "/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/lib/opencv_node/camera_pack" to ""\n'}
+[31.476276] (opencv_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/ament_index/resource_index/package_run_dependencies/opencv_node\n'}
+[31.476312] (opencv_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/ament_index/resource_index/parent_prefix_path/opencv_node\n'}
+[31.476343] (opencv_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/environment/ament_prefix_path.sh\n'}
+[31.477400] (opencv_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/environment/ament_prefix_path.dsv\n'}
+[31.477483] (opencv_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/environment/path.sh\n'}
+[31.477610] (opencv_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/environment/path.dsv\n'}
+[31.477892] (opencv_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/local_setup.bash\n'}
+[31.478074] (opencv_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/local_setup.sh\n'}
+[31.478260] (opencv_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/local_setup.zsh\n'}
+[31.478657] (opencv_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/local_setup.dsv\n'}
+[31.478877] (opencv_node) StdoutLine: {'line': b'-- Installing: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/package.dsv\n'}
+[31.479097] (opencv_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/ament_index/resource_index/packages/opencv_node\n'}
+[31.479379] (opencv_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/cmake/opencv_nodeConfig.cmake\n'}
+[31.479596] (opencv_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/cmake/opencv_nodeConfig-version.cmake\n'}
+[31.479910] (opencv_node) StdoutLine: {'line': b'-- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/package.xml\n'}
+[31.501772] (opencv_node) CommandEnded: {'returncode': 0}
+[31.571258] (-) TimerEvent: {}
+[31.594728] (opencv_node) JobEnded: {'identifier': 'opencv_node', 'rc': 0}
+[31.596392] (-) EventReactorShutdown: {}

@@ -1,0 +1,344 @@
+[0.590s] DEBUG:colcon:Command line arguments: ['/usr/local/bin/colcon', 'build']
+[0.592s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ffb14f5db90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ffb14f0e650>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ffb14f0e650>>)
+[0.754s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.754s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.754s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.754s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.755s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.755s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.755s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_pack) by extensions ['ignore', 'ignore_ament_install']
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_pack) by extension 'ignore'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_pack) by extension 'ignore_ament_install'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_pack) by extensions ['colcon_pkg']
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_pack) by extension 'colcon_pkg'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_pack) by extensions ['colcon_meta']
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_pack) by extension 'colcon_meta'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_pack) by extensions ['ros']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_pack) by extension 'ros'
+[0.889s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_pack' with type 'ros.ament_cmake' and name 'camera_pack'
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_node) by extensions ['ignore', 'ignore_ament_install']
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_node) by extension 'ignore'
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_node) by extension 'ignore_ament_install'
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_node) by extensions ['colcon_pkg']
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_node) by extension 'colcon_pkg'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_node) by extensions ['colcon_meta']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_node) by extension 'colcon_meta'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_node) by extensions ['ros']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_node) by extension 'ros'
+[0.893s] DEBUG:colcon.colcon_core.package_identification:Package 'src/opencv_node' with type 'ros.ament_cmake' and name 'opencv_node'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/rqt_display_node) by extensions ['ignore', 'ignore_ament_install']
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/rqt_display_node) by extension 'ignore'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/rqt_display_node) by extension 'ignore_ament_install'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/rqt_display_node) by extensions ['colcon_pkg']
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/rqt_display_node) by extension 'colcon_pkg'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/rqt_display_node) by extensions ['colcon_meta']
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/rqt_display_node) by extension 'colcon_meta'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/rqt_display_node) by extensions ['ros']
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/rqt_display_node) by extension 'ros'
+[0.896s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rqt_display_node' with type 'ros.ament_cmake' and name 'rqt_display_node'
+[0.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_camera_node) by extensions ['ignore', 'ignore_ament_install']
+[0.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_camera_node) by extension 'ignore'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_camera_node) by extension 'ignore_ament_install'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_camera_node) by extensions ['colcon_pkg']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_camera_node) by extension 'colcon_pkg'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_camera_node) by extensions ['colcon_meta']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_camera_node) by extension 'colcon_meta'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_camera_node) by extensions ['ros']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_camera_node) by extension 'ros'
+[0.920s] DEBUG:colcon.colcon_core.package_identification:Package 'src/usb_camera_node' with type 'ros.ament_cmake' and name 'usb_camera_node'
+[0.922s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.922s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.922s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.922s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.922s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.012s] Level 5:colcon.colcon_core.verb:set package 'camera_pack' build argument 'cmake_args' from command line to 'None'
+[1.012s] Level 5:colcon.colcon_core.verb:set package 'camera_pack' build argument 'cmake_target' from command line to 'None'
+[1.012s] Level 5:colcon.colcon_core.verb:set package 'camera_pack' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.013s] Level 5:colcon.colcon_core.verb:set package 'camera_pack' build argument 'cmake_clean_cache' from command line to 'False'
+[1.013s] Level 5:colcon.colcon_core.verb:set package 'camera_pack' build argument 'cmake_clean_first' from command line to 'False'
+[1.013s] Level 5:colcon.colcon_core.verb:set package 'camera_pack' build argument 'cmake_force_configure' from command line to 'False'
+[1.013s] Level 5:colcon.colcon_core.verb:set package 'camera_pack' build argument 'ament_cmake_args' from command line to 'None'
+[1.013s] Level 5:colcon.colcon_core.verb:set package 'camera_pack' build argument 'catkin_cmake_args' from command line to 'None'
+[1.013s] Level 5:colcon.colcon_core.verb:set package 'camera_pack' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.013s] DEBUG:colcon.colcon_core.verb:Building package 'camera_pack' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/camera_pack', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack', 'merge_install': False, 'path': '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/src/camera_pack', 'symlink_install': False, 'test_result_base': None}
+[1.014s] Level 5:colcon.colcon_core.verb:set package 'opencv_node' build argument 'cmake_args' from command line to 'None'
+[1.014s] Level 5:colcon.colcon_core.verb:set package 'opencv_node' build argument 'cmake_target' from command line to 'None'
+[1.014s] Level 5:colcon.colcon_core.verb:set package 'opencv_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.014s] Level 5:colcon.colcon_core.verb:set package 'opencv_node' build argument 'cmake_clean_cache' from command line to 'False'
+[1.014s] Level 5:colcon.colcon_core.verb:set package 'opencv_node' build argument 'cmake_clean_first' from command line to 'False'
+[1.014s] Level 5:colcon.colcon_core.verb:set package 'opencv_node' build argument 'cmake_force_configure' from command line to 'False'
+[1.014s] Level 5:colcon.colcon_core.verb:set package 'opencv_node' build argument 'ament_cmake_args' from command line to 'None'
+[1.014s] Level 5:colcon.colcon_core.verb:set package 'opencv_node' build argument 'catkin_cmake_args' from command line to 'None'
+[1.014s] Level 5:colcon.colcon_core.verb:set package 'opencv_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.015s] DEBUG:colcon.colcon_core.verb:Building package 'opencv_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/opencv_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node', 'merge_install': False, 'path': '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/src/opencv_node', 'symlink_install': False, 'test_result_base': None}
+[1.016s] Level 5:colcon.colcon_core.verb:set package 'rqt_display_node' build argument 'cmake_args' from command line to 'None'
+[1.016s] Level 5:colcon.colcon_core.verb:set package 'rqt_display_node' build argument 'cmake_target' from command line to 'None'
+[1.016s] Level 5:colcon.colcon_core.verb:set package 'rqt_display_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.016s] Level 5:colcon.colcon_core.verb:set package 'rqt_display_node' build argument 'cmake_clean_cache' from command line to 'False'
+[1.016s] Level 5:colcon.colcon_core.verb:set package 'rqt_display_node' build argument 'cmake_clean_first' from command line to 'False'
+[1.016s] Level 5:colcon.colcon_core.verb:set package 'rqt_display_node' build argument 'cmake_force_configure' from command line to 'False'
+[1.016s] Level 5:colcon.colcon_core.verb:set package 'rqt_display_node' build argument 'ament_cmake_args' from command line to 'None'
+[1.016s] Level 5:colcon.colcon_core.verb:set package 'rqt_display_node' build argument 'catkin_cmake_args' from command line to 'None'
+[1.016s] Level 5:colcon.colcon_core.verb:set package 'rqt_display_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.016s] DEBUG:colcon.colcon_core.verb:Building package 'rqt_display_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/rqt_display_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node', 'merge_install': False, 'path': '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/src/rqt_display_node', 'symlink_install': False, 'test_result_base': None}
+[1.017s] Level 5:colcon.colcon_core.verb:set package 'usb_camera_node' build argument 'cmake_args' from command line to 'None'
+[1.017s] Level 5:colcon.colcon_core.verb:set package 'usb_camera_node' build argument 'cmake_target' from command line to 'None'
+[1.017s] Level 5:colcon.colcon_core.verb:set package 'usb_camera_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.017s] Level 5:colcon.colcon_core.verb:set package 'usb_camera_node' build argument 'cmake_clean_cache' from command line to 'False'
+[1.017s] Level 5:colcon.colcon_core.verb:set package 'usb_camera_node' build argument 'cmake_clean_first' from command line to 'False'
+[1.017s] Level 5:colcon.colcon_core.verb:set package 'usb_camera_node' build argument 'cmake_force_configure' from command line to 'False'
+[1.017s] Level 5:colcon.colcon_core.verb:set package 'usb_camera_node' build argument 'ament_cmake_args' from command line to 'None'
+[1.017s] Level 5:colcon.colcon_core.verb:set package 'usb_camera_node' build argument 'catkin_cmake_args' from command line to 'None'
+[1.017s] Level 5:colcon.colcon_core.verb:set package 'usb_camera_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.017s] DEBUG:colcon.colcon_core.verb:Building package 'usb_camera_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/usb_camera_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node', 'merge_install': False, 'path': '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/src/usb_camera_node', 'symlink_install': False, 'test_result_base': None}
+[1.017s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.026s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.028s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/src/camera_pack' with build type 'ament_cmake'
+[1.028s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/src/camera_pack'
+[1.031s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.032s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.032s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.033s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.034s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.034s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.034s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.034s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.034s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.034s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.034s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.051s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/src/opencv_node' with build type 'ament_cmake'
+[1.051s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/src/opencv_node'
+[1.052s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.052s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.081s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/src/rqt_display_node' with build type 'ament_cmake'
+[1.081s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/src/rqt_display_node'
+[1.083s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.083s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.108s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/src/usb_camera_node' with build type 'ament_cmake'
+[1.109s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/src/usb_camera_node'
+[1.109s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.109s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.126s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/camera_pack': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/bin/env /bin/cmake /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/src/camera_pack -DCMAKE_INSTALL_PREFIX=/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack
+[1.131s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/opencv_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/bin/env /bin/cmake /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/src/opencv_node -DCMAKE_INSTALL_PREFIX=/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node
+[1.136s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/rqt_display_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/bin/env /bin/cmake /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/src/rqt_display_node -DCMAKE_INSTALL_PREFIX=/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node
+[1.155s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/usb_camera_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/bin/env /bin/cmake /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/src/usb_camera_node -DCMAKE_INSTALL_PREFIX=/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node
+[6.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/camera_pack' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/bin/env /bin/cmake /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/src/camera_pack -DCMAKE_INSTALL_PREFIX=/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack
+[6.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/camera_pack': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/bin/env /bin/cmake --build /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/camera_pack -- -j16 -l16
+[6.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/opencv_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/bin/env /bin/cmake /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/src/opencv_node -DCMAKE_INSTALL_PREFIX=/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node
+[6.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/opencv_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/bin/env /bin/cmake --build /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/opencv_node -- -j16 -l16
+[6.595s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/rqt_display_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/bin/env /bin/cmake /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/src/rqt_display_node -DCMAKE_INSTALL_PREFIX=/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node
+[6.598s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/rqt_display_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/bin/env /bin/cmake --build /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/rqt_display_node -- -j16 -l16
+[7.883s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/usb_camera_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/bin/env /bin/cmake /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/src/usb_camera_node -DCMAKE_INSTALL_PREFIX=/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node
+[7.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/usb_camera_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/bin/env /bin/cmake --build /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/usb_camera_node -- -j16 -l16
+[12.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/camera_pack' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/bin/env /bin/cmake --build /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/camera_pack -- -j16 -l16
+[13.059s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/camera_pack': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/bin/env /bin/cmake --install /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/camera_pack
+[13.085s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_pack)
+[13.085s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/camera_pack' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/bin/env /bin/cmake --install /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/camera_pack
+[13.088s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack' for CMake module files
+[13.089s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack' for CMake config files
+[13.089s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_pack', 'cmake_prefix_path')
+[13.090s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/share/camera_pack/hook/cmake_prefix_path.ps1'
+[13.091s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/share/camera_pack/hook/cmake_prefix_path.dsv'
+[13.092s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/share/camera_pack/hook/cmake_prefix_path.sh'
+[13.095s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/lib'
+[13.096s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/bin'
+[13.096s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/lib/pkgconfig/camera_pack.pc'
+[13.099s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/lib/python3.11/site-packages'
+[13.099s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/bin'
+[13.100s] INFO:colcon.colcon_core.shell:Creating package script '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/share/camera_pack/package.ps1'
+[13.101s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/share/camera_pack/package.dsv'
+[13.103s] INFO:colcon.colcon_core.shell:Creating package script '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/share/camera_pack/package.sh'
+[13.104s] INFO:colcon.colcon_core.shell:Creating package script '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/share/camera_pack/package.bash'
+[13.106s] INFO:colcon.colcon_core.shell:Creating package script '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/share/camera_pack/package.zsh'
+[13.107s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/share/colcon-core/packages/camera_pack)
+[13.180s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_pack)
+[13.180s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack' for CMake module files
+[13.182s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack' for CMake config files
+[13.182s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_pack', 'cmake_prefix_path')
+[13.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/share/camera_pack/hook/cmake_prefix_path.ps1'
+[13.183s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/share/camera_pack/hook/cmake_prefix_path.dsv'
+[13.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/share/camera_pack/hook/cmake_prefix_path.sh'
+[13.185s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/lib'
+[13.186s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/bin'
+[13.186s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/lib/pkgconfig/camera_pack.pc'
+[13.186s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/lib/python3.11/site-packages'
+[13.186s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/bin'
+[13.187s] INFO:colcon.colcon_core.shell:Creating package script '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/share/camera_pack/package.ps1'
+[13.187s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/share/camera_pack/package.dsv'
+[13.188s] INFO:colcon.colcon_core.shell:Creating package script '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/share/camera_pack/package.sh'
+[13.189s] INFO:colcon.colcon_core.shell:Creating package script '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/share/camera_pack/package.bash'
+[13.190s] INFO:colcon.colcon_core.shell:Creating package script '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/share/camera_pack/package.zsh'
+[13.191s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/camera_pack/share/colcon-core/packages/camera_pack)
+[23.652s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/usb_camera_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/bin/env /bin/cmake --build /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/usb_camera_node -- -j16 -l16
+[23.715s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/usb_camera_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/bin/env /bin/cmake --install /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/usb_camera_node
+[23.730s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usb_camera_node)
+[23.730s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node' for CMake module files
+[23.732s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node' for CMake config files
+[23.732s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_camera_node', 'cmake_prefix_path')
+[23.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/hook/cmake_prefix_path.ps1'
+[23.734s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/hook/cmake_prefix_path.dsv'
+[23.735s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/usb_camera_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/bin/env /bin/cmake --install /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/usb_camera_node
+[23.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/hook/cmake_prefix_path.sh'
+[23.737s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/lib'
+[23.737s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/bin'
+[23.738s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/lib/pkgconfig/usb_camera_node.pc'
+[23.738s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/lib/python3.11/site-packages'
+[23.739s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/bin'
+[23.739s] INFO:colcon.colcon_core.shell:Creating package script '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/package.ps1'
+[23.740s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/package.dsv'
+[23.741s] INFO:colcon.colcon_core.shell:Creating package script '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/package.sh'
+[23.742s] INFO:colcon.colcon_core.shell:Creating package script '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/package.bash'
+[23.743s] INFO:colcon.colcon_core.shell:Creating package script '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/package.zsh'
+[23.743s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/colcon-core/packages/usb_camera_node)
+[23.808s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usb_camera_node)
+[23.809s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node' for CMake module files
+[23.810s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node' for CMake config files
+[23.811s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_camera_node', 'cmake_prefix_path')
+[23.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/hook/cmake_prefix_path.ps1'
+[23.812s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/hook/cmake_prefix_path.dsv'
+[23.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/hook/cmake_prefix_path.sh'
+[23.813s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/lib'
+[23.814s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/bin'
+[23.814s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/lib/pkgconfig/usb_camera_node.pc'
+[23.814s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/lib/python3.11/site-packages'
+[23.815s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/bin'
+[23.815s] INFO:colcon.colcon_core.shell:Creating package script '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/package.ps1'
+[23.816s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/package.dsv'
+[23.817s] INFO:colcon.colcon_core.shell:Creating package script '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/package.sh'
+[23.818s] INFO:colcon.colcon_core.shell:Creating package script '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/package.bash'
+[23.819s] INFO:colcon.colcon_core.shell:Creating package script '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/package.zsh'
+[23.819s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/colcon-core/packages/usb_camera_node)
+[31.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/opencv_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/bin/env /bin/cmake --build /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/opencv_node -- -j16 -l16
+[31.488s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/opencv_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/bin/env /bin/cmake --install /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/opencv_node
+[31.507s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(opencv_node)
+[31.508s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node' for CMake module files
+[31.509s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/opencv_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/bin/env /bin/cmake --install /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/opencv_node
+[31.510s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node' for CMake config files
+[31.511s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_node', 'cmake_prefix_path')
+[31.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/hook/cmake_prefix_path.ps1'
+[31.512s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/hook/cmake_prefix_path.dsv'
+[31.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/hook/cmake_prefix_path.sh'
+[31.513s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/lib'
+[31.513s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/bin'
+[31.514s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/lib/pkgconfig/opencv_node.pc'
+[31.514s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/lib/python3.11/site-packages'
+[31.515s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/bin'
+[31.515s] INFO:colcon.colcon_core.shell:Creating package script '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/package.ps1'
+[31.516s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/package.dsv'
+[31.517s] INFO:colcon.colcon_core.shell:Creating package script '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/package.sh'
+[31.518s] INFO:colcon.colcon_core.shell:Creating package script '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/package.bash'
+[31.518s] INFO:colcon.colcon_core.shell:Creating package script '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/package.zsh'
+[31.519s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/colcon-core/packages/opencv_node)
+[31.642s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(opencv_node)
+[31.642s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node' for CMake module files
+[31.643s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node' for CMake config files
+[31.644s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_node', 'cmake_prefix_path')
+[31.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/hook/cmake_prefix_path.ps1'
+[31.645s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/hook/cmake_prefix_path.dsv'
+[31.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/hook/cmake_prefix_path.sh'
+[31.647s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/lib'
+[31.647s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/bin'
+[31.648s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/lib/pkgconfig/opencv_node.pc'
+[31.648s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/lib/python3.11/site-packages'
+[31.649s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/bin'
+[31.649s] INFO:colcon.colcon_core.shell:Creating package script '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/package.ps1'
+[31.650s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/package.dsv'
+[31.651s] INFO:colcon.colcon_core.shell:Creating package script '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/package.sh'
+[31.653s] INFO:colcon.colcon_core.shell:Creating package script '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/package.bash'
+[31.654s] INFO:colcon.colcon_core.shell:Creating package script '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/opencv_node/package.zsh'
+[31.654s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/opencv_node/share/colcon-core/packages/opencv_node)
+[31.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/rqt_display_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/bin/env /bin/cmake --build /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/rqt_display_node -- -j16 -l16
+[31.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/rqt_display_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/bin/env /bin/cmake --install /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/rqt_display_node
+[32.003s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rqt_display_node)
+[32.004s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node' for CMake module files
+[32.005s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/rqt_display_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/bin/env /bin/cmake --install /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/rqt_display_node
+[32.006s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node' for CMake config files
+[32.006s] Level 1:colcon.colcon_core.shell:create_environment_hook('rqt_display_node', 'cmake_prefix_path')
+[32.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/rqt_display_node/hook/cmake_prefix_path.ps1'
+[32.008s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/rqt_display_node/hook/cmake_prefix_path.dsv'
+[32.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/rqt_display_node/hook/cmake_prefix_path.sh'
+[32.010s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/lib'
+[32.010s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/bin'
+[32.011s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/lib/pkgconfig/rqt_display_node.pc'
+[32.011s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/lib/python3.11/site-packages'
+[32.012s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/bin'
+[32.012s] INFO:colcon.colcon_core.shell:Creating package script '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/rqt_display_node/package.ps1'
+[32.013s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/rqt_display_node/package.dsv'
+[32.015s] INFO:colcon.colcon_core.shell:Creating package script '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/rqt_display_node/package.sh'
+[32.016s] INFO:colcon.colcon_core.shell:Creating package script '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/rqt_display_node/package.bash'
+[32.016s] INFO:colcon.colcon_core.shell:Creating package script '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/rqt_display_node/package.zsh'
+[32.017s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/colcon-core/packages/rqt_display_node)
+[32.081s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rqt_display_node)
+[32.082s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node' for CMake module files
+[32.082s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node' for CMake config files
+[32.082s] Level 1:colcon.colcon_core.shell:create_environment_hook('rqt_display_node', 'cmake_prefix_path')
+[32.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/rqt_display_node/hook/cmake_prefix_path.ps1'
+[32.082s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/rqt_display_node/hook/cmake_prefix_path.dsv'
+[32.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/rqt_display_node/hook/cmake_prefix_path.sh'
+[32.083s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/lib'
+[32.083s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/bin'
+[32.083s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/lib/pkgconfig/rqt_display_node.pc'
+[32.083s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/lib/python3.11/site-packages'
+[32.083s] Level 1:colcon.colcon_core.environment:checking '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/bin'
+[32.083s] INFO:colcon.colcon_core.shell:Creating package script '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/rqt_display_node/package.ps1'
+[32.084s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/rqt_display_node/package.dsv'
+[32.084s] INFO:colcon.colcon_core.shell:Creating package script '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/rqt_display_node/package.sh'
+[32.085s] INFO:colcon.colcon_core.shell:Creating package script '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/rqt_display_node/package.bash'
+[32.086s] INFO:colcon.colcon_core.shell:Creating package script '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/rqt_display_node/package.zsh'
+[32.088s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/rqt_display_node/share/colcon-core/packages/rqt_display_node)
+[32.088s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[32.088s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[32.088s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[32.090s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[32.105s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[32.105s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[32.105s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[32.849s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[32.849s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/local_setup.ps1'
+[32.852s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/_local_setup_util_ps1.py'
+[32.855s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/setup.ps1'
+[32.859s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/local_setup.sh'
+[32.860s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/_local_setup_util_sh.py'
+[32.861s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/setup.sh'
+[32.863s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/local_setup.bash'
+[32.864s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/setup.bash'
+[32.866s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/local_setup.zsh'
+[32.867s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/setup.zsh'

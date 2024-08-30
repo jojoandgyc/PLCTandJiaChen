@@ -1,0 +1,22 @@
+[0.060s] Invoking command in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/usb_camera_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/bin/env /bin/cmake --build /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/usb_camera_node -- -j16 -l16
+[0.190s] [100%] Built target camera_pack
+[0.249s] Invoked command in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/usb_camera_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/bin/env /bin/cmake --build /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/usb_camera_node -- -j16 -l16
+[0.323s] Invoking command in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/usb_camera_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/bin/env /bin/cmake --install /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/usb_camera_node
+[0.341s] -- Install configuration: ""
+[0.341s] -- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/lib/usb_camera_node/camera_pack
+[0.341s] -- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/ament_index/resource_index/package_run_dependencies/usb_camera_node
+[0.341s] -- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/ament_index/resource_index/parent_prefix_path/usb_camera_node
+[0.341s] -- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/environment/ament_prefix_path.sh
+[0.341s] -- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/environment/ament_prefix_path.dsv
+[0.341s] -- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/environment/path.sh
+[0.341s] -- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/environment/path.dsv
+[0.341s] -- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/local_setup.bash
+[0.341s] -- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/local_setup.sh
+[0.345s] -- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/local_setup.zsh
+[0.345s] -- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/local_setup.dsv
+[0.345s] -- Installing: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/package.dsv
+[0.346s] -- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/ament_index/resource_index/packages/usb_camera_node
+[0.346s] -- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/cmake/usb_camera_nodeConfig.cmake
+[0.346s] -- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/cmake/usb_camera_nodeConfig-version.cmake
+[0.346s] -- Up-to-date: /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/install/usb_camera_node/share/usb_camera_node/package.xml
+[0.354s] Invoked command in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/usb_camera_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/bin/env /bin/cmake --install /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/usb_camera_node

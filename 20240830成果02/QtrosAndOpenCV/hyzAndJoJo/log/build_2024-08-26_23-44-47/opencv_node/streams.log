@@ -1,0 +1,15 @@
+[0.043s] Invoking command in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/opencv_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/bin/env /bin/cmake --build /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/opencv_node -- -j16 -l16
+[0.296s] [ 50%] [32mBuilding CXX object CMakeFiles/camera_pack.dir/src/opencv_node.cpp.o[0m
+[9.289s] [01m[K/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/src/opencv_node/src/opencv_node.cpp:[m[K 在成员函数‘[01m[Kvoid OpenCVNode::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’中:
+[9.290s] [01m[K/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/src/opencv_node/src/opencv_node.cpp:43:9:[m[K [01;31m[K错误：[m[K‘[01m[KCLCPP_DEBUG[m[K’ was not declared in this scope; did you mean ‘[01m[KRCLCPP_DEBUG[m[K’?
+[9.290s]    43 |         [01;31m[KCLCPP_DEBUG[m[K(this->get_logger(), "GGGG %d GGGG",cv_ptr->image.channels());
+[9.290s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[9.290s]       |         [32m[KRCLCPP_DEBUG[m[K
+[9.310s] [01m[K/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/src/opencv_node/src/opencv_node.cpp:62:135:[m[K [01;31m[K错误：[m[K‘[01m[KGprocessed_image[m[K’ was not declared in this scope; did you mean ‘[01m[Kprocessed_image[m[K’?
+[9.311s]    62 |         sensor_msgs::msg::Image::SharedPtr output_msg= cv_bridge::CvImage(std_msgs::msg::Header(), sensor_msgs::image_encodings::RGB8,[01;31m[KGprocessed_image[m[K).toImageMsg();
+[9.311s]       |                                                                                                                                       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[9.311s]       |                                                                                                                                       [32m[Kprocessed_image[m[K
+[17.762s] gmake[2]: *** [CMakeFiles/camera_pack.dir/build.make:76：CMakeFiles/camera_pack.dir/src/opencv_node.cpp.o] 错误 1
+[17.762s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/camera_pack.dir/all] 错误 2
+[17.763s] gmake: *** [Makefile:146：all] 错误 2
+[17.769s] Invoked command in '/root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/opencv_node' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/bin/env /bin/cmake --build /root/Desktop/QtrosAndOpenCV/hyzAndJoJo/build/opencv_node -- -j16 -l16
