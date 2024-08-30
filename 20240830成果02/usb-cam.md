@@ -109,6 +109,8 @@ gpgkey=http://repo.openeuler.org/openEuler-24.03-LTS/source/RPM-GPG-KEY-openEule
 
 ![1725001815548](images/usb-cam/1725001815548.png)
 
+二号节点代码，如下：
+
 通过，opencv节点改成灰度图，不然感觉openCV节点没啥用，继续传给三号节点显示。
 
 ```
@@ -190,7 +192,9 @@ int main(int argc, char **argv)
 
 ```
 
-三号节点 接收二号节点 图像显示， 代码如下
+三号节点 接收二号节点 图像显示， 代码如下：
+
+注意这边代码，直接使用openCV的图像类，直接show，显示图像
 
 ```#include
 #include <sensor_msgs/msg/image.hpp>
@@ -271,7 +275,6 @@ int main(int argc, char **argv)
 }
 ```
 
-启动，rqt图形显示节点
 
 ## 三、运行测试
 
