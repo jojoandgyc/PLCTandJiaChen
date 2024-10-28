@@ -1,4 +1,4 @@
-# milk-v duo SDK编译烧写并测试tftp收发文件实验
+# milk-v duo SDK编译烧写并测试tftp收发文件
 
 ## 准备材料
 
@@ -11,7 +11,6 @@
 ![1730029378976](images/milk-vduoSDK编译烧写并测试tftp收发文件实验/1730029378976.png)
 
 3, 下载软件 [Tftpd64     https://bitbucket.org/phjounin/tftpd64/wiki/Download%20Tftpd64.md](https://bitbucket.org/phjounin/tftpd64/wiki/Download%20Tftpd64.md) 和 [docker-desktop    https://www.docker.com/products/docker-desktop/](https://www.docker.com/products/docker-desktop/) 和 [win32DiskImager https://sourceforge.net/projects/win32diskimager/![1730045209259](images/milk-vduoSDK编译烧写并测试tftp收发文件实验/1730045209259.png)](https://sourceforge.net/projects/win32diskimager/)
-
 
 ## 编译烧写Milk-v duo buildroot SDK 实验
 
