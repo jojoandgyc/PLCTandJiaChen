@@ -42,26 +42,16 @@ Milk-v Duo 256接线如下图，一根GND，四根CKLink的信号线 ，参考 S
 
 ![1730109235471](images/windows11milk-vduo开发环境搭建/1730109235471.png)
 
-## 128G大容量卡balenaEtcher烧录问题
+## 128G大容量TF卡balenaEtcher烧录问题
 
 如果用 balenaEtcher 直接烧录fip.bin固件，虽然显示烧录成功，但是磁盘无法正常使用，
 
 ![1730110614178](images/windows11milk-vduo开发环境搭建/1730110614178.png)
 
-因为被格式化成了未格式化的磁盘分区RAW
+因为磁盘被格式化成了未格式化的RAW磁盘分区
 
 ![1730111319931](images/windows11milk-vduo开发环境搭建/1730111319931.png)
 
 这时候打开t-HeadDebugServer 和 cds Workbench 会各种报错，异常
 
 ![1730108952190](images/windows11milk-vduo开发环境搭建/1730108952190.png)
-
-但是通过用win32DiskImager烧录官方SDK编译出的img后   [https://github.com/milkv-duo/duo-buildroot-sdk](https://github.com/milkv-duo/duo-buildroot-sdk)，
-
-查看磁盘空间 发现配置了128MB 的FAT格式空间，
-
-![1730114595149](images/windows11milk-vduo开发环境搭建/1730114595149.png)
-
-这样情况下，把当前文件全删了，把自己的 fip.bin 固件直接复制过去，开发板可以正常运行 ，t-HeadDebugServer 和 cds Workbench 都可以正常识别出芯片并进入调试模式
-
-![1730114764938](images/windows11milk-vduo开发环境搭建/1730114764938.png)
