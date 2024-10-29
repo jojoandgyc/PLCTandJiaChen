@@ -1,4 +1,4 @@
-# windows11 milk-v duo 开发环境搭建以及128G大容量卡烧写固件问题
+# windows11 milk-v duo 开发环境搭建和128G大容量卡烧写固件问题
 
 ## 准备材料
 
