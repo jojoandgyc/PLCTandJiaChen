@@ -1,6 +1,6 @@
 ## 1. Milk-V官方仓库DuoSDK 解析 PPT+视频讲解 (上传B站)
 
-B站视频 https://www.bilibili.com/video/BV1jKHYeeE2f/
+B站视频 https://www.bilibili.com/video/BV13jzYYUEgE/
 
 ## 2.RT-Thread-UserApps 使用时 提issue+解决pr（已合并）
 
